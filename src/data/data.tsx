@@ -175,67 +175,63 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Hindi',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
+        name: 'English',
         level: 9,
       },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Infrastructure',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Nix',
         level: 8,
       },
       {
-        name: 'Rust',
+        name: 'Terraform',
         level: 5,
       },
       {
-        name: 'Golang',
+        name: 'Python',
         level: 4,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Platforms',
     skills: [
       {
-        name: 'React Native',
+        name: 'Proxmox (on-prem)',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'AWS',
+        level: 5,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'GCP',
+        level: 4,
+      },
+    ],
+  },
+  {
+    name: 'Other',
+    skills: [
+      {
+        name: 'GitOps, Optimizations, Microservices',
+        level: 8,
+      },
+      {
+        name: 'Monitoring, Logging, Alerting',
+        level: 7,
+      },
+      {
+        name: 'GitOps, Networking, Automation',
+        level: 7,
       },
     ],
   },
