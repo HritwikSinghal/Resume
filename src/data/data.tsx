@@ -55,11 +55,11 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Project: 'project',
+  Project: 'projects',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
-  Blogs: 'blogs',
+  Blogs: 'blog',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
