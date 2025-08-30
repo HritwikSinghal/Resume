@@ -325,10 +325,18 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'Mar 2025 - Current',
-    location: 'Somewhere ',
+    date: 'Mar 2025 - Present',
+    location: 'Somewhere...',
     title: 'Career Break',
-    content: <p></p>,
+    content: (
+      <p>
+        Welp! emergencies don't knock on your door; they apparently throw the door off its hinges, barge in and
+        announce, ‘Time for a reset!’ So, I've been rediscovering all the things I forgot I loved – like finally
+        tackling that coding project I'd been putting off, leveling up in my favorite game, and tinkering with my
+        homelab without feeling guilty about neglecting work. Consider it an unexpected system reboot for my well-being.
+        Don't worry, I'll be back to debugging the real world soon!
+      </p>
+    ),
   },
   {
     date: 'Sept 2024 - Feb 2025',
