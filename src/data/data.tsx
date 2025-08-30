@@ -105,16 +105,65 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: (
+    <>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">So who am i really?</p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        I am someone who likes to <strong className="text-stone-100">code</strong>, be it for my career or for solutions
+        to problems that i create! (why spend 6 minutes doing something by hand when you can spend 6 hours to automate
+        it xD). But seriously, this habit made me significantly better engineer over the past years.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        Couldn't find program to upgrade my song library? Just code it.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        Couldn't find program to download new songs? (i like to own my content) Just code it.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        Too lazy to walk 10 steps to turn lights/fan on? Control it via Raspberry pi + Relay and code its Frontend.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        Frustrated about all the privacy invading crap in OEM android? Just build you own fork of Android and tinker
+        with it. (Yep, i use forked AOSP to build my own rom and daily drive it. No more OEM BS) These are just some of
+        the instances through which i learned coding.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        Don't believe me? Just take a look at my github profile. I am a huge free software and OSS supporter so all my
+        work is open source. (it ain't much but it's honest work)
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        You can always have a chat with me on Linux, Competitive coding and how computer systems work.
+      </p>
+
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        I have also began self-hosting recently to get one more step ahead a privacy focused life and have been hosting
+        many services on my homelab which are direct replacements for many big-tech products.{' '}
+        <strong className="text-stone-100">(TerraNixLab)</strong>
+      </p>
+
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        Apart from that, i love playing <strong className="text-stone-100">badminton</strong>, reading{' '}
+        <strong className="text-stone-100">psychology</strong> books ,{' '}
+        <strong className="text-stone-100">trekking</strong> and a little bit of{' '}
+        <strong className="text-stone-100">gaming</strong>. I have also been{' '}
+        <strong className="text-stone-100">traveling</strong> solo for the past year and been loving it so far. Movies,
+        Web-series aren't my cup of tea. (well expect for LOTR and selected movies in mystery/thriller genre).
+      </p>
+
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        Oh, I am also an <strong className="text-stone-100">Astronomy</strong> lover so if you know your stars, you can
+        always ping me.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">And... that's all folks!</p>
+    </>
+  ),
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Bengaluru, IN', Icon: MapIcon},
+    {label: 'Age', text: '25', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Astronomy, Homelab, Travelling', Icon: SparklesIcon},
+    {label: 'Study', text: 'LNM Institute of Information Technology', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'On a Health break', Icon: BuildingOffice2Icon},
   ],
 };
 
