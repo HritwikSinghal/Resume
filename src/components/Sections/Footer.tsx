@@ -30,7 +30,7 @@ const Footer: FC = memo(() => (
       {/*  </span>*/}
       {/*</a>*/}
       <span className="text-sm text-neutral-700">© Copyright {currentYear} Hritwik Singhal</span>
-      <a className="text-sm text-neutral-700" href="https://reactresume.com">
+      <a className="text-sm text-neutral-700" href="https://reactresume.com" rel="noopener noreferrer" target="_blank">
         Thanks Tim Baker!
       </a>
     </div>
