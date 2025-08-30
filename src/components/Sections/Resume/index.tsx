@@ -21,7 +21,15 @@ const Resume: FC = memo(() => {
           ))}
         </ResumeSection>
         <ResumeSection title="Skills">
-          <p className="pb-8">Arts which i am Jack of xD</p>
+          <p className="pb-8">Trades which i am Jack of xD</p>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            {skills.map((skillgroup, index) => (
+              <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
+            ))}
+          </div>
+        </ResumeSection>
+        <ResumeSection title="Personal Pursuits">
+          <p className="pb-8">My Life's Side Quests</p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
               <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
