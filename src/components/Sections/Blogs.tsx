@@ -2,14 +2,14 @@ import classNames from 'classnames';
 import {FC, memo, UIEventHandler, useCallback, useEffect, useMemo, useRef, useState} from 'react';
 
 import {isApple, isMobile} from '../../config';
-import {SectionId, testimonial} from '../../data/data';
-import {Testimonial} from '../../data/dataDef';
+import {blog, SectionId} from '../../data/data';
+import {Blog} from '../../data/dataDef';
 import useInterval from '../../hooks/useInterval';
 import useWindow from '../../hooks/useWindow';
 import QuoteIcon from '../Icon/QuoteIcon';
 import Section from '../Layout/Section';
 
-const Testimonials: FC = memo(() => {
+const Blogs: FC = memo(() => {
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const [scrollValue, setScrollValue] = useState(0);
   const [parallaxEnabled, setParallaxEnabled] = useState(false);
@@ -19,7 +19,7 @@ const Testimonials: FC = memo(() => {
 
   const {width} = useWindow();
 
-  const {imageSrc, testimonials} = testimonial;
+  const {imageSrc, blogs} = blog;
 
   const resolveSrc = useMemo(() => {
     if (!imageSrc) return undefined;
@@ -42,7 +42,7 @@ const Testimonials: FC = memo(() => {
     }
   }, [itemWidth, scrollValue]);
 
-  const setTestimonial = useCallback(
+  const setBlog = useCallback(
     (index: number) => () => {
       if (scrollContainer !== null && scrollContainer.current !== null) {
         scrollContainer.current.scrollLeft = itemWidth.current * index;
@@ -51,12 +51,12 @@ const Testimonials: FC = memo(() => {
     [],
   );
   const next = useCallback(() => {
-    if (activeIndex + 1 === testimonials.length) {
-      setTestimonial(0)();
+    if (activeIndex + 1 === blogs.length) {
+      setBlog(0)();
     } else {
-      setTestimonial(activeIndex + 1)();
+      setBlog(activeIndex + 1)();
     }
-  }, [activeIndex, setTestimonial, testimonials.length]);
+  }, [activeIndex, setBlog, blogs.length]);
 
   const handleScroll = useCallback<UIEventHandler<HTMLDivElement>>(event => {
     setScrollValue(event.currentTarget.scrollLeft);
@@ -64,13 +64,13 @@ const Testimonials: FC = memo(() => {
 
   useInterval(next, 10000);
 
-  // If no testimonials, don't render the section
-  if (!testimonials.length) {
+  // If no blogs, don't render the section
+  if (!blogs.length) {
     return null;
   }
 
   return (
-    <Section noPadding sectionId={SectionId.Testimonials}>
+    <Section noPadding sectionId={SectionId.Blogs}>
       <div
         className={classNames(
           'flex w-full items-center justify-center bg-cover bg-center px-4 py-16 md:py-24 lg:px-8',
@@ -84,15 +84,13 @@ const Testimonials: FC = memo(() => {
               className="no-scrollbar flex w-full touch-pan-x snap-x snap-mandatory gap-x-6 overflow-x-auto scroll-smooth"
               onScroll={handleScroll}
               ref={scrollContainer}>
-              {testimonials.map((testimonial, index) => {
+              {blogs.map((blog, index) => {
                 const isActive = index === activeIndex;
-                return (
-                  <Testimonial isActive={isActive} key={`${testimonial.name}-${index}`} testimonial={testimonial} />
-                );
+                return <Blog blog={blog} isActive={isActive} key={`${blog.name}-${index}`} />;
               })}
             </div>
             <div className="flex gap-x-4">
-              {[...Array(testimonials.length)].map((_, index) => {
+              {[...Array(blogs.length)].map((_, index) => {
                 const isActive = index === activeIndex;
                 return (
                   <button
@@ -102,7 +100,7 @@ const Testimonials: FC = memo(() => {
                     )}
                     disabled={isActive}
                     key={`select-button-${index}`}
-                    onClick={setTestimonial(index)}></button>
+                    onClick={setBlog(index)}></button>
                 );
               })}
             </div>
@@ -113,27 +111,25 @@ const Testimonials: FC = memo(() => {
   );
 });
 
-const Testimonial: FC<{testimonial: Testimonial; isActive: boolean}> = memo(
-  ({testimonial: {text, name, image}, isActive}) => (
-    <div
-      className={classNames(
-        'flex w-full shrink-0 snap-start snap-always flex-col items-start gap-y-4 p-2 transition-opacity duration-1000 sm:flex-row sm:gap-x-6',
-        isActive ? 'opacity-100' : 'opacity-0',
-      )}>
-      {image ? (
-        <div className="relative h-14 w-14 shrink-0 sm:h-16 sm:w-16">
-          <QuoteIcon className="absolute -left-2 -top-2 h-4 w-4 stroke-black text-white" />
-          <img className="h-full w-full rounded-full" src={image} />
-        </div>
-      ) : (
-        <QuoteIcon className="h-5 w-5 shrink-0 text-white sm:h-8 sm:w-8" />
-      )}
-      <div className="flex flex-col gap-y-4">
-        <p className="prose prose-sm font-medium italic text-white sm:prose-base">{text}</p>
-        <p className="text-xs italic text-white sm:text-sm md:text-base lg:text-lg">-- {name}</p>
+const Blog: FC<{blog: Blog; isActive: boolean}> = memo(({blog: {text, name, image}, isActive}) => (
+  <div
+    className={classNames(
+      'flex w-full shrink-0 snap-start snap-always flex-col items-start gap-y-4 p-2 transition-opacity duration-1000 sm:flex-row sm:gap-x-6',
+      isActive ? 'opacity-100' : 'opacity-0',
+    )}>
+    {image ? (
+      <div className="relative h-14 w-14 shrink-0 sm:h-16 sm:w-16">
+        <QuoteIcon className="absolute -left-2 -top-2 h-4 w-4 stroke-black text-white" />
+        <img className="h-full w-full rounded-full" src={image} />
       </div>
+    ) : (
+      <QuoteIcon className="h-5 w-5 shrink-0 text-white sm:h-8 sm:w-8" />
+    )}
+    <div className="flex flex-col gap-y-4">
+      <p className="prose prose-sm font-medium italic text-white sm:prose-base">{text}</p>
+      <p className="text-xs italic text-white sm:text-sm md:text-base lg:text-lg">-- {name}</p>
     </div>
-  ),
-);
+  </div>
+));
 
-export default Testimonials;
+export default Blogs;

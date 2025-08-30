@@ -13,7 +13,6 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import InstagramIcon from '../components/Icon/InstagramIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
-
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -27,9 +26,10 @@ import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.webp';
-import testimonialImage from '../images/testimonial.webp';
+import blogImage from '../images/blog.webp';
 import {
   About,
+  BlogSection,
   ContactSection,
   ContactType,
   Hero,
@@ -37,7 +37,6 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
-  TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
@@ -60,7 +59,7 @@ export const SectionId = {
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
-  Testimonials: 'testimonials',
+  Blogs: 'blogs',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -416,14 +415,14 @@ export const experience: TimelineItem[] = [
 ];
 
 /**
- * Testimonial section
+ * Blog section
  */
-export const testimonial: TestimonialSection = {
-  imageSrc: testimonialImage,
-  testimonials: [
+export const blog: BlogSection = {
+  imageSrc: blogImage,
+  blogs: [
     {
       name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      text: 'Use this as an opportunity to promote what it is like to work with you. High value blogs include ones from current or past co-workers, managers, or from happy clients.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
@@ -433,7 +432,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality blogs with strong highlights of your skills/work ethic.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
