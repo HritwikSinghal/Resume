@@ -45,7 +45,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'The Oakenshield',
+  title: 'Hritwik Singhal',
   description: "Hritwik's portfolio.",
 };
 
