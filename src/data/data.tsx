@@ -70,7 +70,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Hi, I'm Hritwik.`,
+  name: `Hi, I'm Hritwik`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -126,21 +126,21 @@ export const aboutData: About = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         Frustrated about all the privacy invading crap in OEM android? Just build you own fork of Android and tinker
-        with it. (Yep, i use forked AOSP to build my own rom and daily drive it. No more OEM BS) These are just some of
-        the instances through which i learned coding.
+        with it. (Yep, i use forked AOSP to build my own rom and daily drive it, no more OEM BS).
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Don't believe me? Just take a look at my github profile. I am a huge free software and OSS supporter so all my
-        work is open source. (it ain't much but it's honest work)
+        These are just some of the instances through which i learned coding. Don't believe me? Just take a look at my
+        github profile. I am a huge free software and OSS supporter so all my work is open source. (it ain't much but
+        it's honest work)
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         You can always have a chat with me on Linux, Competitive coding and how computer systems work.
       </p>
 
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I have also began self-hosting recently to get one more step ahead a privacy focused life and have been hosting
-        many services on my homelab which are direct replacements for many big-tech products.{' '}
-        <strong className="text-stone-100">(TerraNixLab)</strong>
+        I have also began <strong className="text-stone-100">self-hosting</strong> recently to get one more step ahead a
+        privacy focused life and have been hosting many services on my homelab which are direct replacements for many
+        big-tech products. <strong className="text-stone-100">(TerraNixLab)</strong>
       </p>
 
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -182,7 +182,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'English',
-        level: 9,
+        level: 8,
       },
     ],
   },
@@ -191,15 +191,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Nix',
-        level: 8,
+        level: 7,
       },
       {
         name: 'Terraform',
-        level: 5,
+        level: 6,
       },
       {
         name: 'Python',
-        level: 4,
+        level: 9,
       },
     ],
   },
@@ -212,7 +212,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'AWS',
-        level: 5,
+        level: 6,
       },
       {
         name: 'GCP',
