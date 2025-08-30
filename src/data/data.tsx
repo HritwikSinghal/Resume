@@ -14,17 +14,17 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import projectImage1 from '../images/projects/portfolio-1.jpg';
+import projectImage2 from '../images/projects/portfolio-2.jpg';
+import projectImage3 from '../images/projects/portfolio-3.jpg';
+import projectImage4 from '../images/projects/portfolio-4.jpg';
+import projectImage5 from '../images/projects/portfolio-5.jpg';
+import projectImage6 from '../images/projects/portfolio-6.jpg';
+import projectImage7 from '../images/projects/portfolio-7.jpg';
+import projectImage8 from '../images/projects/portfolio-8.jpg';
+import projectImage9 from '../images/projects/portfolio-9.jpg';
+import projectImage10 from '../images/projects/portfolio-10.jpg';
+import projectImage11 from '../images/projects/portfolio-11.jpg';
 import profilepic from '../images/profilepic.webp';
 import blogImage from '../images/blog.webp';
 import {
@@ -34,7 +34,7 @@ import {
   ContactType,
   Hero,
   HomepageMeta,
-  PortfolioItem,
+  ProjectItem,
   SkillGroup,
   Social,
   TimelineItem,
@@ -45,7 +45,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Hritwik Singhal',
-  description: "Hritwik's portfolio.",
+  description: "Hritwik's portfolio Website",
 };
 
 /**
@@ -55,7 +55,7 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'portfolio',
+  Project: 'project',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
@@ -239,74 +239,74 @@ export const skills: SkillGroup[] = [
 ];
 
 /**
- * Portfolio section
+ * Projects section
  */
-export const portfolioItems: PortfolioItem[] = [
+export const projectItems: ProjectItem[] = [
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage1,
+    image: projectImage1,
   },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage2,
+    image: projectImage2,
   },
   {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage3,
+    image: projectImage3,
   },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage4,
+    image: projectImage4,
   },
   {
     title: 'Project title 5',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage5,
+    image: projectImage5,
   },
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage6,
+    image: projectImage6,
   },
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage7,
+    image: projectImage7,
   },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage8,
+    image: projectImage8,
   },
   {
     title: 'Project title 9',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage9,
+    image: projectImage9,
   },
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage10,
+    image: projectImage10,
   },
   {
     title: 'Project title 11',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: porfolioImage11,
+    image: projectImage11,
   },
 ];
 
