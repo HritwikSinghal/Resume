@@ -75,7 +75,8 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Bangalore based <strong className="text-stone-100">Site Reliability Engineer</strong>, with{' '}
         <strong className="text-stone-100">3+ years</strong> of experience building & maintaining resilient, scalable
-        infrastructure in production environments.
+        infrastructure in production environments. I am a dedicated and self-driven geek with a passion for Python,
+        Linux and self-hosting and a strong zeal for open-source development.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me working on{' '}
