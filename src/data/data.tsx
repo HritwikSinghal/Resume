@@ -45,7 +45,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  description: "Example site built with Hritwik's react resume template",
 };
 
 /**
@@ -69,18 +69,19 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Hi, I'm Hritwik.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Bangalore based <strong className="text-stone-100">Site Reliability Engineer</strong>, with{' '}
+        <strong className="text-stone-100">3+ years</strong> of experience building & maintaining resilient, scalable
+        infrastructure in production environments.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me working on{' '}
+        <strong className="text-stone-100">TerraNixLab (my Homelab)</strong>, playing{' '}
+        <strong className="text-stone-100">Badminton</strong>, <strong className="text-stone-100">Stargazing</strong>,
+        or <strong className="text-stone-100">Solo traveling</strong> to different corners of India.
       </p>
     </>
   ),
