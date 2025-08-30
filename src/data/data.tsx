@@ -14,7 +14,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 
-import heroImage from '../images/header-background.png';
+import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -26,7 +26,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/profilepic.webp';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -165,7 +165,7 @@ export const aboutData: About = {
     {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
     {label: 'Interests', text: 'Astronomy, Homelab, Travelling', Icon: SparklesIcon},
     {label: 'Study', text: 'LNM Institute of Information Technology', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'On a Health break', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'On a Career break', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -325,6 +325,12 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'Mar 2025 - Current',
+    location: 'Somewhere ',
+    title: 'Career Break',
+    content: <p></p>,
+  },
+  {
     date: 'Sept 2024 - Feb 2025',
     location: 'Tessell',
     title: 'Platform Engineer',
@@ -431,27 +437,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Wanna reach out to me for a chat? Look nowhere else!',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'portfolio@thorin.theoakenshield.com',
+      href: 'mailto:portfolio@thorin.theoakenshield.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Bengaluru, India',
+      href: 'https://maps.app.goo.gl/L6uP2haWq98ydbM1A',
     },
     {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      type: ContactType.LinkedIn,
+      text: 'hritwiksinghal',
+      href: 'https://www.linkedin.com/in/hritwiksinghal/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'HritwikSinghal',
+      href: 'https://github.com/HritwikSinghal',
     },
   ],
 };
