@@ -58,7 +58,7 @@ const Contact: FC = memo(() => {
                       <a
                         className={classNames(
                           '-m-2 flex rounded-md p-2 text-neutral-300 hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500',
-                          {'hover:text-orange-500': href},
+                          {'transition-all duration-100 hover:text-orange-100': href},
                         )}
                         href={href}
                         target="_blank">
