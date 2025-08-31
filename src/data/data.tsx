@@ -444,7 +444,7 @@ export const blog: BlogSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Wanna reach out to me for a chat? Look nowhere else!',
+  description: 'Wanna reach out to me? Look nowhere else!',
   items: [
     {
       type: ContactType.Email,
