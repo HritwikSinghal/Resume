@@ -17,7 +17,7 @@ const Footer: FC = memo(() => (
       </a>
     </div>
     <div className="flex flex-col items-center gap-y-6">
-      <div className="flex gap-x-4 text-neutral-500">
+      <div className="flex gap-x-4 text-neutral-400">
         <Socials />
       </div>
       {/*<a*/}
@@ -29,9 +29,9 @@ const Footer: FC = memo(() => (
       {/*    <span className="italic text-yellow">Resume</span>*/}
       {/*  </span>*/}
       {/*</a>*/}
-      <span className="text-sm text-neutral-700">© Copyright {currentYear} Hritwik Singhal</span>
-      <span className="text-xs text-neutral-700">Optimized for Firefox.</span>
-      <a className="text-xs text-neutral-700" href="https://reactresume.com" rel="noopener noreferrer" target="_blank">
+      <span className="text-sm text-neutral-600">© Copyright {currentYear} Hritwik Singhal</span>
+      <span className="text-xs text-neutral-600">Optimized for Firefox.</span>
+      <a className="text-xs text-neutral-600" href="https://reactresume.com" rel="noopener noreferrer" target="_blank">
         Thanks Tim Baker!
       </a>
     </div>
