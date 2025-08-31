@@ -193,7 +193,7 @@ export const skills: SkillGroup[] = [
         level: 7,
       },
       {
-        name: 'Terraform',
+        name: 'Terraform, Kubernetes',
         level: 6,
       },
       {
