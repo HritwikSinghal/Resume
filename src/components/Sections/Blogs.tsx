@@ -3,7 +3,7 @@ import {FC, memo, UIEventHandler, useCallback, useEffect, useMemo, useRef, useSt
 
 import {isApple, isMobile} from '../../config';
 import {blog, SectionId} from '../../data/data';
-import {Blog} from '../../data/dataDef';
+import type {Blog} from '../../data/dataDef';
 import useInterval from '../../hooks/useInterval';
 import useWindow from '../../hooks/useWindow';
 import QuoteIcon from '../Icon/QuoteIcon';
