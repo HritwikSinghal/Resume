@@ -81,8 +81,8 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Bangalore based <strong className="text-stone-100">Site Reliability Engineer</strong>, with{' '}
         <strong className="text-stone-100">3+ years</strong> of experience building & maintaining resilient, scalable
-        infrastructure in production environments. I am a dedicated and self-driven geek with a passion for Python,
-        Linux and self-hosting and a strong zeal for open-source development.
+        infrastructure in production environments. I am a dedicated, self-driven geek with a passion for Python, Linux
+        and self-hosting and a strong zeal for open-source development.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me working on{' '}
@@ -114,6 +114,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
+      <p className="italic font-extrabold">I'm Batman</p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">So who am i really?</p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I am someone who likes to <strong className="text-stone-100">code</strong>, be it for my career or for solutions
@@ -121,21 +122,19 @@ export const aboutData: About = {
         it xD). But seriously, this habit made me significantly better engineer over the past years.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Couldn't find program to upgrade my song library? Just code it.
+        Couldn't find a program to download songs or upgrade the ones in my library? Just code it. (i like to own my
+        content)
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Couldn't find program to download new songs? (i like to own my content) Just code it.
+        Too lazy to walk 10 steps to turn lights/fan on? Control it via Raspberry pi + Relay.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Too lazy to walk 10 steps to turn lights/fan on? Control it via Raspberry pi + Relay and code its Frontend.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Frustrated about all the privacy invading crap in OEM android? Just build you own fork of Android and tinker
+        Frustrated about all the privacy invading crap in OEM android? Just build your own fork of Android and tinker
         with it. (Yep, i use forked AOSP to build my own rom and daily drive it, no more OEM BS).
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        These are just some of the instances through which i learned coding. Don't believe me? Just take a look at my
-        github profile. I am a huge free software and OSS supporter so all my work is open source. (it ain't much but
+        These are just a handful of instances through which I learned coding. Don't believe me? Just have a look at my
+        GitHub profile. I am a huge free software and OSS supporter, so all my work is open source. (it ain't much, but
         it's honest work)
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -143,23 +142,37 @@ export const aboutData: About = {
       </p>
 
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I have also began <strong className="text-stone-100">self-hosting</strong> recently to get one more step ahead a
-        privacy focused life and have been hosting many services on my homelab which are direct replacements for many
-        big-tech products. <strong className="text-stone-100">(TerraNixLab)</strong>
+        I have also began <strong className="text-stone-100">self-hosting</strong> recently to get into a privacy
+        focused life and have been hosting many services on my homelab
+        <strong className="text-stone-100"> (TerraNixLab)</strong> which are direct replacements for many big-tech
+        products.
       </p>
-
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        Some of them include <strong className="text-stone-100">llama.cpp</strong> (local LLM's),{' '}
+        <strong className="text-stone-100">Nextcloud</strong> (Google/Microsoft workspace alt and CalDav/contacts
+        server), <strong className="text-stone-100">Immich</strong> (Google photos alt),{' '}
+        <strong className="text-stone-100">Forgejo</strong>
+        (Github/Gitlab alt), <strong className="text-stone-100">SearX</strong> (search),{' '}
+        <strong className="text-stone-100">Bookstack</strong> (for documentation of my TerraNixLab & Life). And the list
+        is ever growing!
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        <strong className="text-stone-100">Sunshine + Moonlight</strong> are my connection to video game world (and a
+        2000km journey between me and my Gaming Rig!). My achievements are often short-lived, however, as I'm a
+        connoisseur of the 'You Died' experience.
+      </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         Apart from that, i love playing <strong className="text-stone-100">badminton</strong>, reading{' '}
         <strong className="text-stone-100">psychology</strong> books ,{' '}
         <strong className="text-stone-100">trekking</strong> and a little bit of{' '}
         <strong className="text-stone-100">gaming</strong>. I have also been{' '}
         <strong className="text-stone-100">traveling</strong> solo for the past year and been loving it so far. Movies,
-        Web-series aren't my cup of tea. (well expect for LOTR and selected movies in mystery/thriller genre).
+        Web-series aren't my cup of tea. (well expect for LOTR and mystery/thriller genre).
       </p>
 
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Oh, I am also an <strong className="text-stone-100">Astronomy</strong> lover so if you know your stars, you can
-        always ping me.
+        Oh, I am also an <strong className="text-stone-100">Astronomy</strong> nerd. If you can tell me what a nebula is
+        without Googling, you're instantly my new best friend!
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">And... that's all folks!</p>
     </>
