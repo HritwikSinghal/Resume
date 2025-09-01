@@ -12,6 +12,7 @@ import TwitterIcon from '../../Icon/TwitterIcon';
 import Section from '../../Layout/Section';
 import getInTouchPic from '../../../images/touch.webp';
 import Image from 'next/image';
+import Link from 'next/link';
 // import ContactForm from './ContactForm';
 
 const ContactValueMap: Record<ContactType, ContactValue> = {
@@ -42,7 +43,16 @@ const Contact: FC = memo(() => {
           {!!getInTouchSrc && (
             <div className="col-span-1 flex justify-center md:justify-start">
               <div className="relative h-32 w-80 overflow-hidden rounded-xl md:h-55 md:w-120">
-                <Image alt="contact-me-image" className="h-full w-full object-cover" src={getInTouchSrc} />
+                <Link
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?autopaly=1"
+                  rel="noopener noreferrer"
+                  target="_blank">
+                  <Image
+                    alt="contact-me-image"
+                    className="h-full w-full object-cover transition-transform duration-400 hover:scale-110"
+                    src={getInTouchSrc}
+                  />
+                </Link>
               </div>
             </div>
           )}
