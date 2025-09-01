@@ -18,12 +18,15 @@ const Projects: FC = memo(() => {
           {projectItems.map((item, index) => {
             const {title, image} = item;
             return (
-              <div className="pb-6" key={`${title}-${index}`}>
+              <div className="pb-8" key={`${title}-${index}`}>
                 <div
                   className={classNames(
-                    'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                    'group relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl transition-transform duration-300 hover:scale-110',
                   )}>
-                  <Image alt={title} className="h-full w-full" placeholder="blur" src={image} />
+                  {/* Wrap the image in a div that blurs on hover */}
+                  <div className="transition duration-200 ease-in-out group-hover:blur-md">
+                    <Image alt={title} className="h-full w-full" placeholder="blur" src={image} />
+                  </div>
                   <ItemOverlay item={item} />
                 </div>
               </div>
@@ -34,9 +37,6 @@ const Projects: FC = memo(() => {
     </Section>
   );
 });
-
-Projects.displayName = 'Projects';
-export default Projects;
 
 const ItemOverlay: FC<{item: ProjectItem}> = memo(({item: {url, title, description}}) => {
   const [mobile, setMobile] = useState(false);
@@ -64,7 +64,7 @@ const ItemOverlay: FC<{item: ProjectItem}> = memo(({item: {url, title, descripti
   return (
     <a
       className={classNames(
-        'absolute inset-0 h-full w-full  bg-gray-900 transition-all duration-300',
+        'absolute inset-0 h-full w-full  bg-neutral-800 transition-all duration-300',
         {'opacity-0 hover:opacity-80': !mobile},
         showOverlay ? 'opacity-80' : 'opacity-0',
       )}
@@ -82,3 +82,6 @@ const ItemOverlay: FC<{item: ProjectItem}> = memo(({item: {url, title, descripti
     </a>
   );
 });
+
+Projects.displayName = 'Projects';
+export default Projects;
