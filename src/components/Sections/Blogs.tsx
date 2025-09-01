@@ -112,6 +112,7 @@ const Blogs: FC = memo(() => {
   );
 });
 
+// @ts-ignore
 const Blog: FC<{blog: Blog; isActive: boolean}> = memo(({blog: {text, name, image}, isActive}) => (
   <div
     className={classNames(
