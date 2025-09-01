@@ -55,7 +55,6 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
   },
 );
 
-
 const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}> = memo(
   ({navSections, currentSection}) => {
     const baseClass =
@@ -150,7 +149,7 @@ const NavItem: FC<{
   inactiveClass: string;
   onClick?: () => void;
 }> = memo(({section, current, inactiveClass, activeClass, onClick}) => {
-  console.log(`NavItem for ${section} is ${current ? 'active' : 'inactive'}`);
+  // console.log(`NavItem for ${section} is ${current ? 'active' : 'inactive'}`);
   return (
     <Link
       className={classNames(current ? activeClass : inactiveClass)}
