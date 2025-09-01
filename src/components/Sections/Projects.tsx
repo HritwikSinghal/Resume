@@ -49,6 +49,7 @@ const ItemOverlay: FC<{item: ProjectItem}> = memo(({item: {url, title, descripti
       setMobile(true);
     }
   }, []);
+  // @ts-ignore
   useDetectOutsideClick(linkRef, () => setShowOverlay(false));
 
   const handleItemClick = useCallback(
