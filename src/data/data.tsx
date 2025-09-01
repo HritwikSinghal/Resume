@@ -13,7 +13,9 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import InstagramIcon from '../components/Icon/InstagramIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
+import blogImage from '../images/blog.webp';
 import heroImage from '../images/header-background.webp';
+import profilepic from '../images/profilepic.webp';
 import projectImage1 from '../images/projects/portfolio-1.jpg';
 import projectImage2 from '../images/projects/portfolio-2.jpg';
 import projectImage3 from '../images/projects/portfolio-3.jpg';
@@ -25,8 +27,6 @@ import projectImage8 from '../images/projects/portfolio-8.jpg';
 import projectImage9 from '../images/projects/portfolio-9.jpg';
 import projectImage10 from '../images/projects/portfolio-10.jpg';
 import projectImage11 from '../images/projects/portfolio-11.jpg';
-import profilepic from '../images/profilepic.webp';
-import blogImage from '../images/blog.webp';
 import {
   About,
   BlogSection,
