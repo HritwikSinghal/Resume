@@ -35,6 +35,7 @@ import {
   Hero,
   HomepageMeta,
   ProjectItem,
+  PursuitItem,
   SkillGroup,
   Social,
   TimelineItem,
@@ -409,6 +410,46 @@ export const experience: TimelineItem[] = [
         cluster executing MapReduce applications. Utilized findings to fine-tune GC parameters, optimize heap size,
         resulting in a <strong className="text-stone-100">10%</strong> improvement in application performance and
         reduced memory consumption.
+      </p>
+    ),
+  },
+];
+
+/**
+ * Pursuits section
+ */
+export const pursuits: PursuitItem[] = [
+  {
+    date: 'Jan 2024',
+    location: 'Gili Islands, Indonesia',
+    title: 'PADI Open Water Scuba Diver',
+    content: (
+      <p>
+        Qualified to a depth of 18m, can dive anywhere in the world using my own scuba gear. Turns out, the ocean is way
+        more entertaining than Netflix. Who needs plot twists when you have a pufferfish looking perpetually surprised!
+      </p>
+    ),
+  },
+  {
+    date: '2022 - 2024',
+    location: 'Corners of India (and southeast Asia)',
+    title: 'Travelling Solo',
+    content: (
+      <p>
+        Just me, my backpack, and a whole lot of adventure! Apparently, all it takes is a backpack and a questionable
+        decision to start solo traveling. The result? A whole lot of unexpected discoveries and a perspective shift
+        that's, let's just say, significant!
+      </p>
+    ),
+  },
+  {
+    date: 'Jan 2021',
+    location: 'Uttarakhand, IN',
+    title: 'Trek to Summit of Mt. Kedarkantha',
+    content: (
+      <p>
+        Survived Mt. Kedarkantha! 6 days, -10°C, and a whole lot of questioning my life choices. But hey, the view from
+        12,500 ft was pretty spectacular... and I can now officially say I’ve frozen my socks off for a good reason
       </p>
     ),
   },

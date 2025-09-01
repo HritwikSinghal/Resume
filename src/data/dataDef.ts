@@ -94,6 +94,16 @@ export interface TimelineItem {
 }
 
 /**
+ * Pursuits section
+ */
+export interface PursuitItem {
+  date: string;
+  location: string;
+  title: string;
+  content: JSX.Element;
+}
+
+/**
  * Blog section
  */
 export interface BlogSection {
