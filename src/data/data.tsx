@@ -16,17 +16,17 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import blogImage from '../images/blog.webp';
 import heroImage from '../images/header-background.webp';
 import profilepic from '../images/profilepic.webp';
-import projectImage1 from '../images/projects/portfolio-1.jpg';
-import projectImage2 from '../images/projects/portfolio-2.jpg';
-import projectImage3 from '../images/projects/portfolio-3.jpg';
-import projectImage4 from '../images/projects/portfolio-4.jpg';
-import projectImage5 from '../images/projects/portfolio-5.jpg';
-import projectImage6 from '../images/projects/portfolio-6.jpg';
-import projectImage7 from '../images/projects/portfolio-7.jpg';
-import projectImage8 from '../images/projects/portfolio-8.jpg';
-import projectImage9 from '../images/projects/portfolio-9.jpg';
-import projectImage10 from '../images/projects/portfolio-10.jpg';
-import projectImage11 from '../images/projects/portfolio-11.jpg';
+import projectImage1 from '../images/projects/portfolio-1.png';
+import projectImage2 from '../images/projects/portfolio-2.png';
+import projectImage3 from '../images/projects/portfolio-3.png';
+import projectImage4 from '../images/projects/portfolio-4.png';
+import projectImage5 from '../images/projects/portfolio-5.png';
+import projectImage6 from '../images/projects/portfolio-6.png';
+import projectImage7 from '../images/projects/portfolio-7.png';
+// import projectImage8 from '../images/projects/portfolio-8.jpg';
+// import projectImage9 from '../images/projects/portfolio-9.jpg';
+// import projectImage10 from '../images/projects/portfolio-10.jpg';
+// import projectImage11 from '../images/projects/portfolio-11.jpg';
 import {
   About,
   BlogSection,
@@ -244,71 +244,76 @@ export const skills: SkillGroup[] = [
  */
 export const projectItems: ProjectItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'NixOS cloudImage',
+    description: 'A barebones NixOS cloudImage for proxmox for use in terraform providers',
+    url: 'https://github.com/HritwikSinghal/Nixos-cloudImage',
     image: projectImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Saavn song downloader',
+    description: ' Download songs from Jiosaavn by just copying song, album, playlist link to clipboard.',
+    url: 'https://github.com/HritwikSinghal/Clipboard-saavn-song-downloader',
     image: projectImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Room Control Server',
+    description:
+      " A simple FLASK WebServer to control things in your home using Raspberry Pi's GPIOs programmed as outputs (acting as actuators). ",
+    url: 'https://github.com/HritwikSinghal/room_control_server',
     image: projectImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Filebrowser NixPkgs Maintainer',
+    description: 'Official maintainer of filebrowser package in Nixpkgs',
+    url: 'https://github.com/NixOS/nixpkgs/blob/master/pkgs/by-name/fi/filebrowser/package.nix',
     image: projectImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'This Resume Website',
+    description:
+      'Props to Tim Baker for the original framework — but I rolled up my sleeves, built a few new components, customized it to fit my vision, and leveled up my React and web dev game in the process.',
+    url: 'https://github.com/HritwikSinghal/Resume',
     image: projectImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Oakenshields Liar',
+    description:
+      '\n' +
+      'TerraNixLab IaC Repo. Stateless, Immutable, Declarative Deployment of CT/VMs on Proxmox using Terraform and Nix. (This repo is private for the time being)',
+    url: 'https://github.com/HritwikSinghal/oakenshields-liar',
     image: projectImage6,
   },
+
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Music-library-upgrader',
+    description: 'Upgrade songs in your folder seamlessly ',
+    url: 'https://github.com/HritwikSinghal/Music-library-upgrader',
     image: projectImage7,
   },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: projectImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: projectImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: projectImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: projectImage11,
-  },
+  // {
+  //   title: 'Project title 8',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: projectImage8,
+  // },
+  // {
+  //   title: 'Project title 9',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: projectImage9,
+  // },
+  // {
+  //   title: 'Project title 10',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: projectImage10,
+  // },
+  // {
+  //   title: 'Project title 11',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: projectImage11,
+  // },
 ];
 
 /**
