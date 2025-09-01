@@ -27,6 +27,11 @@ import projectImage7 from '../images/projects/portfolio-7.webp';
 // import projectImage9 from '../images/projects/portfolio-9.jpg';
 // import projectImage10 from '../images/projects/portfolio-10.jpg';
 // import projectImage11 from '../images/projects/portfolio-11.jpg';
+
+import pauseImage from '../images/pause.webp';
+import gremlinImage from '../images/gremlin.webp';
+import duckImage from '../images/duck.webp';
+
 import {
   About,
   BlogSection,
@@ -468,18 +473,18 @@ export const blog: BlogSection = {
   blogs: [
     {
       name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value blogs include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      text: 'This blog section is currently experiencing a temporary… creative sabbatical. Think of it as a strategic pause before the word explosion. Coming soon (probably).',
+      image: pauseImage,
     },
     {
       name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      text: "The blog section is like a mischievous gremlin. I'm trying to coax it into cooperating, but it mostly just hides. Stay tuned for updates on the gremlin taming process!",
+      image: gremlinImage,
     },
     {
       name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality blogs with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      text: 'The blog section is being held hostage by a severe case of ‘what should I write?’ Send rubber duckies and inspiration!',
+      image: duckImage,
     },
   ],
 };
