@@ -353,11 +353,37 @@ export const experience: TimelineItem[] = [
     location: 'Tessell',
     title: 'Platform Engineer',
     content: (
-      <p>
-        Conducted in-depth analysis of Java garbage collection times by scrutinizing server GC logs from a Hadoop
-        cluster executing MapReduce applications. Utilized findings to fine-tune GC parameters, optimize heap size,
-        resulting in a 10% improvement in application performance and reduced memory consumption.
-      </p>
+      <>
+        <p style={{marginBottom: '10px'}}>
+          Led the architectural revamp of a monolithic <strong className="text-stone-100">Python</strong> backend
+          codebase, transitioning it to a modular design to enhance{' '}
+          <strong className="text-stone-100">scalability, maintainability, and platform flexibility</strong>; enabling
+          faster feature releases and quicker response to market demands. Refactored the monolithic codebase to modular
+          architecture, reducing code complexity by <strong className="text-stone-100">40%</strong>.
+        </p>
+        <p style={{marginBottom: '10px'}}>
+          Designed, architected, and implemented a fully automated deployment pipeline for new database VMs across AWS &
+          Azure using Argo Workflows and custom backend, reducing VM deployment time by{' '}
+          <strong className="text-stone-100">~80%</strong> from{' '}
+          <strong className="text-stone-100">2 days to 4 hours</strong>.
+        </p>
+        <p style={{marginBottom: '10px'}}>
+          <strong className="text-stone-100">Eliminated</strong> developer dependency on our team for new DB, fostering
+          a self-service model and freeing up our team's capacity.
+        </p>
+        <p style={{marginBottom: '10px'}}>
+          Added seamless support for new cloud platforms, including successful deployment to Oracle Cloud Infrastructure
+          (OCI), reducing onboarding time by <strong className="text-stone-100">25%.</strong>
+        </p>
+        <p style={{marginBottom: '10px'}}>
+          Improved support for integration of new DB's, implemented checksum validation for data integrity, improving
+          data accuracy and reducing error rates by <strong className="text-stone-100">10%</strong>.
+        </p>
+        <p style={{marginBottom: '10px'}}>
+          Automated cleanup of AWS/Azure zombie resources, saving <strong className="text-stone-100">~5%</strong> infra
+          costs
+        </p>
+      </>
     ),
   },
   {
@@ -369,43 +395,44 @@ export const experience: TimelineItem[] = [
         <p style={{marginBottom: '10px'}}>
           Leveraged <strong className="text-stone-100">Nix</strong> and{' '}
           <strong className="text-stone-100">Terraform</strong> to efficiently scale an existing Hadoop cluster on GCP
-          and On-prem datacenters. Increased node count from <strong className="text-stone-100">20 to 70</strong> by
-          revamping monolithic IaC codebase to enhance
-          <strong className="text-stone-100"> modularity, inheritance structure, and scalability</strong> of individual
-          components, which enabled said scaling with minimal code changes, reducing deployment time by{' '}
-          <strong className="text-stone-100">50%</strong> and improved deployment frequency.
+          and On-prem datacenters, increasing node count from <strong className="text-stone-100">20 to 70</strong> and
+          reducing deployment time by <strong className="text-stone-100">90%</strong>.
         </p>
         <p style={{marginBottom: '10px'}}>
-          <strong className="text-stone-100">Optimized</strong> disk read and write latencies from{' '}
-          <strong className="text-stone-100">20ms to under 1ms</strong> for HDFS and YARN applications by tuning
-          operational ZFS parameters, thus mitigating more than <strong className="text-stone-100">80%</strong> frequent
-          latency spikes during operational load.
+          Optimized Hadoop disk read and write latencies from <strong className="text-stone-100">20ms</strong> to{' '}
+          <strong className="text-stone-100">under 1ms</strong> for <strong className="text-stone-100">HDFS</strong> and{' '}
+          <strong className="text-stone-100">YARN</strong>
+          applications by tuning operational <strong className="text-stone-100">ZFS</strong> parameters, thus mitigating
+          more than <strong className="text-stone-100">80%</strong> frequent latency spikes during operational load.
         </p>
         <p style={{marginBottom: '10px'}}>
-          Implemented CI/CD pipelines on self-managed Jenkins slaves.{' '}
-          <strong className="text-stone-100">Automated</strong> deployment processes of Conda virtual environments from
-          custom configuration files within the Hadoop cluster, resulting in a{' '}
-          <strong className="text-stone-100">30%</strong> reduction in deployment time through standardized environment
-          setup.
+          Led the company-wide deployment of Zeppelin & Hue for <strong className="text-stone-100">300</strong> devs
+          using <strong className="text-stone-100">Nix</strong> & <strong className="text-stone-100">SOPS</strong>. Used
+          Infrastructure as Code (IaC) methodologies for Optimized deployment speed, reliability and secret management.
+          Reduced deployment time by <strong className="text-stone-100">50%</strong>.
         </p>
         <p style={{marginBottom: '10px'}}>
-          Led the company-wide deployment of Zeppelin and Hue for <strong className="text-stone-100">300</strong>{' '}
-          developers. Optimized deployment speed, reliability and secret management using{' '}
-          <strong className="text-stone-100">Nix and SOPS</strong> through Infrastructure as Code{' '}
-          <strong className="text-stone-100">(IaC)</strong> methodologies, reducing deployment time by{' '}
-          <strong className="text-stone-100">50%</strong>. Implemented NGINX optimizations, resulting in a reduction of
-          application load times from <strong className="text-stone-100">~3s to ~500ms</strong>.
+          Implemented <strong className="text-stone-100">Jenkins CI/CD</strong> pipelines on self-managed slaves to
+          automate the deployment processes of
+          <strong className="text-stone-100">Conda</strong> virtual environments from custom configuration files within
+          the Hadoop cluster, resulting in a <strong className="text-stone-100">30% reduction</strong> in deployment
+          time.
         </p>
         <p style={{marginBottom: '10px'}}>
           Implemented a streamlined resource pipeline for Hadoop teams, enhancing capacity planning through dynamic data
           analysis. Optimized cluster settings based on team-specific path size limits, generating granular data for
-          reporting and aggregation, thus scaling the cluster by more than{' '}
-          <strong className="text-stone-100">30%</strong> in capacity.
+          reporting and aggregation, thus scaling the cluster by{' '}
+          <strong className="text-stone-100">more than 30%</strong> in capacity.
         </p>
         <p style={{marginBottom: '10px'}}>
-          Proven on call proficiency in debugging live production issues during 24x7 on-call rotations. Ensured rapid
-          resolution, minimizing downtimes and enhancing system resilience. Proficiently conducted and authored detailed
-          RCA reports.
+          Proven on call proficiency in debugging live production issues during 24x7{' '}
+          <strong className="text-stone-100">on-call rotations</strong>. Ensured rapid resolution, minimizing downtimes
+          and enhancing system resilience. Proficiently conducted and authored detailed{' '}
+          <strong className="text-stone-100">RCA</strong> reports.
+        </p>
+        <p style={{marginBottom: '10px'}}>
+          Implemented Various NGINX optimizations, resulting in a reduction of application load times from{' '}
+          <strong className="text-stone-100">~3s to ~500ms</strong>.
         </p>
       </>
     ),
@@ -416,10 +443,10 @@ export const experience: TimelineItem[] = [
     title: 'Site Reliability Engineer Intern',
     content: (
       <p>
-        Conducted in-depth analysis of Java garbage collection times by scrutinizing server GC logs from a Hadoop
-        cluster executing MapReduce applications. Utilized findings to fine-tune GC parameters, optimize heap size,
-        resulting in a <strong className="text-stone-100">10%</strong> improvement in application performance and
-        reduced memory consumption.
+        Conducted in-depth analysis of Java garbage collection times by analyzing server GC logs from a Hadoop cluster
+        executing MapReduce applications. Utilized findings to fine-tune GC parameters, optimize heap size, resulting in
+        a <strong className="text-stone-100">10%</strong> improvement in application performance and reduced memory
+        consumption.
       </p>
     ),
   },
