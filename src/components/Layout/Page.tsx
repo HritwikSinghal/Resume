@@ -4,6 +4,7 @@ import {useRouter} from 'next/router';
 import {memo, PropsWithChildren} from 'react';
 
 import {HomepageMeta} from '../../data/dataDef';
+import profilePic from '../../images/profilepic.webp';
 
 const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, description}) => {
   const {asPath: pathname} = useRouter();
@@ -33,6 +34,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <meta content={title} property="og:title" />
         <meta content={description} property="og:description" />
         <meta content={`${baseDomain}${pathname}`} property="og:url" />
+        <meta content={profilePic} property="og:image" />
 
         {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
         <meta content={title} name="twitter:title" />
