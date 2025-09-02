@@ -30,15 +30,21 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         {/*<link href="/apple-touch-icon.png" rel="apple-touch-icon" />*/}
         <link href="/site.webmanifest" rel="manifest" />
 
-        {/* Open Graph : https://ogp.me/ */}
+        {/*Meta Tags Generated via https://www.opengraph.io*/}
+        {/*Facebook Meta Tags*/}
+        <meta content="site" property="og:type" />
+        <meta content="https://theoakenshield.com/" property="og:url" />
         <meta content={title} property="og:title" />
         <meta content={description} property="og:description" />
-        <meta content={`${baseDomain}${pathname}`} property="og:url" />
+        {/*<meta content={`${baseDomain}${pathname}`} property="og:url" />*/}
         <meta content={profilePic} property="og:image" />
 
-        {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
+        {/*Twitter Meta Tags*/}
+        <meta content="summary_large_image" name="twitter:card" />
+        <meta content="https://theoakenshield.com/" property="twitter:url" />
         <meta content={title} name="twitter:title" />
         <meta content={description} name="twitter:description" />
+        <meta content={profilePic} name="twitter:image" />
       </Head>
       {children}
     </>
