@@ -15,7 +15,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import blogImage from '../images/blog.webp';
 import heroImage from '../images/header-background.webp';
-import profilepic from '../images/profilepic.webp';
+import profilePic from '../images/profilepic.webp';
 import projectImage1 from '../images/projects/portfolio-1.webp';
 import projectImage2 from '../images/projects/portfolio-2.webp';
 import projectImage3 from '../images/projects/portfolio-3.webp';
@@ -79,14 +79,14 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Bangalore based <strong className="text-stone-100">Site Reliability Engineer</strong>, with{' '}
+        I'm a Bangalore based <strong className="text-stone-100">Site Reliability Engineer</strong>, with
         <strong className="text-stone-100">3+ years</strong> of experience building & maintaining resilient, scalable
         infrastructure in production environments. I am a dedicated, self-driven geek with a passion for Python, Linux
         and self-hosting and a strong zeal for open-source development.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me working on{' '}
-        <strong className="text-stone-100">TerraNixLab (my Homelab)</strong>, playing{' '}
+        In my free time time, you can catch me working on
+        <strong className="text-stone-100">TerraNixLab (my Homelab)</strong>, playing
         <strong className="text-stone-100">Badminton</strong>, <strong className="text-stone-100">Stargazing</strong>,
         or <strong className="text-stone-100">Solo traveling</strong> to different corners of India.
       </p>
@@ -111,10 +111,13 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
+  profileImageSrc: profilePic,
   description: (
     <>
-      <p className="italic font-extrabold">I'm Batman</p>
+      <p className="italic">
+        <span className="font-extrabold">I'm Batman</span> &nbsp;
+        <span className="text-xs">( jk )</span>
+      </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">So who am i really?</p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I am someone who likes to <strong className="text-stone-100">code</strong>, be it for my career or for solutions
@@ -148,11 +151,11 @@ export const aboutData: About = {
         products.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Some of them include <strong className="text-stone-100">llama.cpp</strong> (local LLM's),{' '}
-        <strong className="text-stone-100">Nextcloud</strong> (Google/Microsoft workspace alt and CalDav/contacts
-        server), <strong className="text-stone-100">Immich</strong> (Google photos alt),{' '}
+        Some of them include <strong className="text-stone-100">llama.cpp</strong> (local LLM's),
+        <strong className="text-stone-100"> Nextcloud</strong> (Google/Microsoft workspace alt and CalDav/contacts
+        server), <strong className="text-stone-100">Immich</strong> (Google photos alt),
         <strong className="text-stone-100">Forgejo</strong>
-        (Github/Gitlab alt), <strong className="text-stone-100">SearX</strong> (search),{' '}
+        (Github/Gitlab alt), <strong className="text-stone-100">SearX</strong> (search),
         <strong className="text-stone-100">Bookstack</strong> (for documentation of my TerraNixLab & Life). And the list
         is ever growing!
       </p>
@@ -162,10 +165,10 @@ export const aboutData: About = {
         connoisseur of the 'You Died' experience.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Apart from that, i love playing <strong className="text-stone-100">badminton</strong>, reading{' '}
-        <strong className="text-stone-100">psychology</strong> books ,{' '}
-        <strong className="text-stone-100">trekking</strong> and a little bit of{' '}
-        <strong className="text-stone-100">gaming</strong>. I have also been{' '}
+        Apart from that, i love playing <strong className="text-stone-100">badminton</strong>, reading
+        <strong className="text-stone-100">psychology</strong> books ,
+        <strong className="text-stone-100">trekking</strong> and a little bit of
+        <strong className="text-stone-100">gaming</strong>. I have also been
         <strong className="text-stone-100">traveling</strong> solo for the past year and been loving it so far. Movies,
         Web-series aren't my cup of tea. (well expect for LOTR and mystery/thriller genre).
       </p>
@@ -369,15 +372,15 @@ export const experience: TimelineItem[] = [
       <>
         <p style={{marginBottom: '10px'}}>
           Led the architectural revamp of a monolithic <strong className="text-stone-100">Python</strong> backend
-          codebase, transitioning it to a modular design to enhance{' '}
+          codebase, transitioning it to a modular design to enhance
           <strong className="text-stone-100">scalability, maintainability, and platform flexibility</strong>; enabling
           faster feature releases and quicker response to market demands. Refactored the monolithic codebase to modular
           architecture, reducing code complexity by <strong className="text-stone-100">40%</strong>.
         </p>
         <p style={{marginBottom: '10px'}}>
           Designed, architected, and implemented a fully automated deployment pipeline for new database VMs across AWS &
-          Azure using Argo Workflows and custom backend, reducing VM deployment time by{' '}
-          <strong className="text-stone-100">~80%</strong> from{' '}
+          Azure using Argo Workflows and custom backend, reducing VM deployment time by
+          <strong className="text-stone-100">~80%</strong> from
           <strong className="text-stone-100">2 days to 4 hours</strong>.
         </p>
         <p style={{marginBottom: '10px'}}>
@@ -406,14 +409,14 @@ export const experience: TimelineItem[] = [
     content: (
       <>
         <p style={{marginBottom: '10px'}}>
-          Leveraged <strong className="text-stone-100">Nix</strong> and{' '}
+          Leveraged <strong className="text-stone-100">Nix</strong> and
           <strong className="text-stone-100">Terraform</strong> to efficiently scale an existing Hadoop cluster on GCP
           and On-prem datacenters, increasing node count from <strong className="text-stone-100">20 to 70</strong> and
           reducing deployment time by <strong className="text-stone-100">90%</strong>.
         </p>
         <p style={{marginBottom: '10px'}}>
-          Optimized Hadoop disk read and write latencies from <strong className="text-stone-100">20ms</strong> to{' '}
-          <strong className="text-stone-100">under 1ms</strong> for <strong className="text-stone-100">HDFS</strong> and{' '}
+          Optimized Hadoop disk read and write latencies from <strong className="text-stone-100">20ms</strong> to
+          <strong className="text-stone-100">under 1ms</strong> for <strong className="text-stone-100">HDFS</strong> and
           <strong className="text-stone-100">YARN</strong>
           applications by tuning operational <strong className="text-stone-100">ZFS</strong> parameters, thus mitigating
           more than <strong className="text-stone-100">80%</strong> frequent latency spikes during operational load.
@@ -434,17 +437,17 @@ export const experience: TimelineItem[] = [
         <p style={{marginBottom: '10px'}}>
           Implemented a streamlined resource pipeline for Hadoop teams, enhancing capacity planning through dynamic data
           analysis. Optimized cluster settings based on team-specific path size limits, generating granular data for
-          reporting and aggregation, thus scaling the cluster by{' '}
+          reporting and aggregation, thus scaling the cluster by
           <strong className="text-stone-100">more than 30%</strong> in capacity.
         </p>
         <p style={{marginBottom: '10px'}}>
-          Proven on call proficiency in debugging live production issues during 24x7{' '}
+          Proven on call proficiency in debugging live production issues during 24x7
           <strong className="text-stone-100">on-call rotations</strong>. Ensured rapid resolution, minimizing downtimes
-          and enhancing system resilience. Proficiently conducted and authored detailed{' '}
+          and enhancing system resilience. Proficiently conducted and authored detailed
           <strong className="text-stone-100">RCA</strong> reports.
         </p>
         <p style={{marginBottom: '10px'}}>
-          Implemented Various NGINX optimizations, resulting in a reduction of application load times from{' '}
+          Implemented Various NGINX optimizations, resulting in a reduction of application load times from
           <strong className="text-stone-100">~3s to ~500ms</strong>.
         </p>
       </>
