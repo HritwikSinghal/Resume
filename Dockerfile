@@ -1,4 +1,5 @@
 # https://calvinf.com/blog/2023/11/10/node-js-20-yarn-4-and-next-js-on-docker/
+# https://github.com/yarnpkg/yarn/issues/2739 Yarn will not install devDependencies when NODE_ENV=production
 # Need to cleanup and optimize this file. This works for now. will fix later. #todo
 
 # Use the official Node.js image from the Docker Hub
@@ -14,10 +15,11 @@ WORKDIR /app
 
 # Copy the package.json and yarn.lock files to the container
 COPY package.json yarn.lock .yarnrc.yml ./
+# COPY  next-env.d.ts next-sitemap.js next.config.js package.json postcss.config.js stylelint.config.js tailwind.config.js tsconfig.json yarn.lock ./
 
 # Install dependencies using Yarn
-# RUN yarn install --frozen-lockfile
-RUN yarn install --immutable
+RUN yarn install --frozen-lockfile
+# RUN yarn install --immutable
 
 # Copy the rest of your project files to the container
 COPY . .
