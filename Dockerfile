@@ -1,6 +1,7 @@
 # https://calvinf.com/blog/2023/11/10/node-js-20-yarn-4-and-next-js-on-docker/
 # https://github.com/yarnpkg/yarn/issues/2739 Yarn will not install devDependencies when NODE_ENV=production
 # Need to cleanup and optimize this file. This works for now. will fix later. #todo
+## NOTE: MAKE SURE the app is running in prod when deploying via compose. see https://stackoverflow.com/questions/31889867/docker-compose-not-overriding-dockerfile-environment-variables#answer-53705415
 
 # Use the official Node.js image from the Docker Hub
 FROM node:24.7.0-trixie-slim AS base
