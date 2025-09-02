@@ -22,9 +22,9 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
            users to scroll horizontally or zoom in/out.*/}
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-        <link href="/favicon.png" rel="icon" sizes="any" />
-        <link href="/favicon.png" rel="icon" sizes="16x16" />
-        <link href="/favicon.png" rel="icon" sizes="32x32" />
+        <link href="/favicon.webp" rel="icon" sizes="any" />
+        <link href="/favicon.webp" rel="icon" sizes="16x16" />
+        <link href="/favicon.webp" rel="icon" sizes="32x32" />
 
         {/*<link href="/icon.svg" rel="icon" type="image/svg+xml" />*/}
         {/*<link href="/apple-touch-icon.png" rel="apple-touch-icon" />*/}
