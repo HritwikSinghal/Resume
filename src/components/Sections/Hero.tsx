@@ -9,6 +9,13 @@ import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
   const {imageSrc, name, description, actions} = heroData;
+  if (process.env.NODE_ENV === 'production') {
+    console.log('Sagittarius');
+    // Add your production-specific code here
+  } else {
+    console.log('Earth');
+    // Add your development-specific code here
+  }
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
