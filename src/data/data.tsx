@@ -371,32 +371,41 @@ export const experience: TimelineItem[] = [
       <>
         <p style={{marginBottom: '10px'}}>
           Led the architectural revamp of a monolithic <strong className="text-stone-100">Python</strong> backend
-          codebase, transitioning it to a modular design to enhance{' '}
+          codebase to a modular design, enhancing{' '}
           <strong className="text-stone-100">scalability, maintainability, and platform flexibility</strong>; enabling
-          faster feature releases and quicker response to market demands. Refactored the monolithic codebase to modular
-          architecture, reducing code complexity by <strong className="text-stone-100">40%</strong>.
+          faster feature releases and quicker response to market demands.
         </p>
+
         <p style={{marginBottom: '10px'}}>
-          Designed, architected, and implemented a fully automated deployment pipeline for new database VMs across AWS &
-          Azure using Argo Workflows and custom backend, reducing VM deployment time by{' '}
+          Refactored the monolithic codebase to modular architecture, reducing code complexity by{' '}
+          <strong className="text-stone-100">20%</strong>.
+        </p>
+
+        <p style={{marginBottom: '10px'}}>
+          Designed and implemented a fully automated deployment pipeline for new database VMs across AWS & Azure using
+          Argo Workflows and custom backend, reducing VM deployment time by{' '}
           <strong className="text-stone-100">~80%</strong> from{' '}
           <strong className="text-stone-100">2 days to 4 hours</strong>.
         </p>
+
         <p style={{marginBottom: '10px'}}>
-          <strong className="text-stone-100">Eliminated</strong> developer dependency on our team for new DB, fostering
-          a self-service model and freeing up our team's capacity.
+          <strong className="text-stone-100">Eliminated</strong> developer dependency on our team for Database testing,
+          fostering a self-service model and freeing up our team's capacity.
         </p>
+
         <p style={{marginBottom: '10px'}}>
-          Added seamless support for new cloud platforms, including successful deployment to Oracle Cloud Infrastructure
-          (OCI), reducing onboarding time by <strong className="text-stone-100">25%.</strong>
+          Added seamless support for new cloud platforms, including successful deployments to Oracle Cloud
+          Infrastructure (OCI), reducing onboarding time by <strong className="text-stone-100">25%</strong>.
         </p>
+
         <p style={{marginBottom: '10px'}}>
           Improved support for integration of new DB's, implemented checksum validation for data integrity, improving
           data accuracy and reducing error rates by <strong className="text-stone-100">10%</strong>.
         </p>
+
         <p style={{marginBottom: '10px'}}>
           Automated cleanup of AWS/Azure zombie resources, saving <strong className="text-stone-100">~5%</strong> infra
-          costs
+          costs.
         </p>
       </>
     ),
