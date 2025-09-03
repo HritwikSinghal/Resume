@@ -458,9 +458,9 @@ export const experience: TimelineItem[] = [
     title: 'Site Reliability Engineer Intern',
     content: (
       <p>
-        Conducted in-depth analysis of Java garbage collection times by analyzing server GC logs from a Hadoop cluster
-        executing MapReduce applications. Utilized findings to fine-tune GC parameters, optimize heap size, resulting in
-        a <strong className="text-stone-100">10%</strong> improvement in application performance and reduced memory
+        Conducted in-depth analysis of Java garbage collection times by analyzing GC logs from Hadoop cluster nodes.
+        Fine-tuned GC parameters & optimized heap sizes, thus resulting in{' '}
+        <strong className="text-stone-100">10%</strong> improvement of application performance and reduced memory
         consumption.
       </p>
     ),
