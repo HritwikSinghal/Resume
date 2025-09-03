@@ -1,11 +1,21 @@
 {
-  "name": "Oakenshield",
-  "short_name": "oakenshields-portfolio",
+  "name": "Hritwik Singhal",
+  "short_name": "Hritwik",
+    "start_url": "/",
+    "display": "standalone",
   "icons": [
-    {"src": "/favicon.png", "type": "image/png", "sizes": "192x192"},
-    {"src": "/favicon.png", "type": "image/png", "sizes": "512x512"}
+//     {"src": "/favicon.webp", "type": "image/webp", "sizes": "57x57"},
+//     {"src": "/favicon.webp", "type": "image/webp", "sizes": "60x60"},
+//     {"src": "/favicon.webp", "type": "image/webp", "sizes": "72x72"},
+//     {"src": "/favicon.webp", "type": "image/webp", "sizes": "76x76"},
+//     {"src": "/favicon.webp", "type": "image/webp", "sizes": "114x114"},
+//     {"src": "/favicon.webp", "type": "image/webp", "sizes": "120x120"},
+//     {"src": "/favicon.webp", "type": "image/webp", "sizes": "144x144"},
+//     {"src": "/favicon.webp", "type": "image/webp", "sizes": "152x152"},
+//     {"src": "/favicon.webp", "type": "image/webp", "sizes": "180x180"},
+    {"src": "/favicon-192x192.png", "type": "image/png", "sizes": "192x192"},
+    {"src": "/favicon-512x512.png", "type": "image/png", "sizes": "512x512"}
   ],
   "theme_color": "#515455",
   "background_color": "#515455",
-  "display": "standalone"
 }
