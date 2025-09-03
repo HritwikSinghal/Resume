@@ -51,7 +51,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Hritwik Singhal',
-  description: "Hritwik's portfolio Website",
+  description: "This is me, in progress...",
 };
 
 /**
@@ -445,10 +445,6 @@ export const experience: TimelineItem[] = [
           <strong className="text-stone-100">on-call rotations</strong>. Ensured rapid resolution, minimizing downtimes
           and enhancing system resilience. Proficiently conducted and authored detailed{' '}
           <strong className="text-stone-100">RCA</strong> reports.
-        </p>
-        <p style={{marginBottom: '10px'}}>
-          Implemented Various NGINX optimizations, resulting in a reduction of application load times from{' '}
-          <strong className="text-stone-100">~3s to ~500ms</strong>.
         </p>
       </>
     ),
