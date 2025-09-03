@@ -418,34 +418,30 @@ export const experience: TimelineItem[] = [
       <>
         <p style={{marginBottom: '10px'}}>
           Leveraged <strong className="text-stone-100">Nix</strong> and{' '}
-          <strong className="text-stone-100">Terraform</strong> to efficiently scale an existing Hadoop cluster on GCP
-          and On-prem datacenters, increasing node count from <strong className="text-stone-100">20 to 70</strong> and
-          reducing deployment time by <strong className="text-stone-100">90%</strong>.
+          <strong className="text-stone-100">Terraform</strong> to scale existing Hadoop cluster, on GCP and On-prem
+          datacenters, from <strong className="text-stone-100">20 to 70</strong> nodes; thus reducing deployment time by{' '}
+          <strong className="text-stone-100">80%</strong>.
         </p>
         <p style={{marginBottom: '10px'}}>
-          Optimized Hadoop disk read and write latencies from <strong className="text-stone-100">20ms</strong> to{' '}
-          <strong className="text-stone-100">under 1ms</strong> for <strong className="text-stone-100">HDFS</strong> and{' '}
-          <strong className="text-stone-100">YARN</strong>
-          applications by tuning operational <strong className="text-stone-100">ZFS</strong> parameters, thus mitigating
-          more than <strong className="text-stone-100">80%</strong> frequent latency spikes during operational load.
+          Optimized disk read/write latencies from <strong className="text-stone-100">20ms</strong> to{' '}
+          <strong className="text-stone-100">under 1ms</strong> for <strong className="text-stone-100">HDFS</strong> by
+          fine-tuning various <strong className="text-stone-100">ZFS</strong> parameters; thus mitigating frequent
+          latency spikes by <strong className="text-stone-100">80%</strong>.
         </p>
         <p style={{marginBottom: '10px'}}>
-          Led the company-wide deployment of Zeppelin & Hue for <strong className="text-stone-100">300</strong> devs
-          using <strong className="text-stone-100">Nix</strong> & <strong className="text-stone-100">SOPS</strong>. Used
-          Infrastructure as Code (IaC) methodologies for Optimized deployment speed, reliability and secret management.
-          Reduced deployment time by <strong className="text-stone-100">50%</strong>.
+          Led company-wide deployment of Zeppelin & Hue for <strong className="text-stone-100">300</strong> devs using{' '}
+          <strong className="text-stone-100">Nix</strong>, <strong className="text-stone-100">TF</strong> &{' '}
+          <strong className="text-stone-100">SOPS</strong>. Used Infrastructure as Code (IaC) methodologies for
+          optimized deployment speed, reliability and secret management.
         </p>
         <p style={{marginBottom: '10px'}}>
-          Implemented <strong className="text-stone-100">Jenkins CI/CD</strong> pipelines on self-managed slaves to
-          automate the deployment processes of <strong className="text-stone-100">Conda</strong> virtual environments
-          from custom configuration files within the Hadoop cluster, resulting in a{' '}
-          <strong className="text-stone-100">30% reduction</strong> in deployment time.
+          Scaled Hadoop cluster by <strong className="text-stone-100">30%</strong> in capacity. Implemented resource
+          pipelines to improve capacity planning by generating & aggregating team-specific data.
         </p>
         <p style={{marginBottom: '10px'}}>
-          Implemented a streamlined resource pipeline for Hadoop teams, enhancing capacity planning through dynamic data
-          analysis. Optimized cluster settings based on team-specific path size limits, generating granular data for
-          reporting and aggregation, thus scaling the cluster by{' '}
-          <strong className="text-stone-100">more than 30%</strong> in capacity.
+          Implemented <strong className="text-stone-100">Jenkins CI/CD</strong> pipelines to automate the deployment of{' '}
+          <strong className="text-stone-100">Conda</strong> virtual environments on Hadoop cluster, resulting in{' '}
+          <strong className="text-stone-100">30%</strong> reduced app deployment time.
         </p>
         <p style={{marginBottom: '10px'}}>
           Proven on call proficiency in debugging live production issues during 24x7{' '}
