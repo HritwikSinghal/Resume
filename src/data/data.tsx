@@ -51,7 +51,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Hritwik Singhal',
-  description: "This is me, in progress...",
+  description: 'This is me, in progress.',
 };
 
 /**
@@ -80,9 +80,9 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Bangalore based <strong className="text-stone-100">Site Reliability Engineer</strong>, with{' '}
-        <strong className="text-stone-100">3+ years</strong> of experience building & maintaining resilient, scalable
-        infrastructure in production environments. I am a dedicated, self-driven geek with a passion for Python, Linux
-        and self-hosting and a strong zeal for open-source development.
+        <strong className="text-stone-100">3+ years</strong> of experience in building & maintaining resilient, scalable
+        infrastructure in production environments. I am a dedicated, self-driven geek with a passion for Python, Linux &
+        self-hosting and a strong zeal for open-source development.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me working on{' '}
@@ -145,8 +145,8 @@ export const aboutData: About = {
       </p>
 
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I have also began <strong className="text-stone-100">self-hosting</strong> recently to get into a privacy
-        focused life and have been hosting many services on my homelab{' '}
+        I have also began <strong className="text-stone-100">self-hosting</strong> recently to get into a
+        privacy-focused life and have been hosting many services on my homelab{' '}
         <strong className="text-stone-100"> (TerraNixLab)</strong> which are direct replacements for many big-tech
         products.
       </p>
@@ -154,8 +154,8 @@ export const aboutData: About = {
         Some of them include <strong className="text-stone-100">llama.cpp</strong> (local LLM's),{' '}
         <strong className="text-stone-100"> Nextcloud</strong> (Google/Microsoft workspace alt and CalDav/contacts
         server), <strong className="text-stone-100">Immich</strong> (Google photos alt),{' '}
-        <strong className="text-stone-100">Forgejo</strong>{' '}
-        (Github/Gitlab alt), <strong className="text-stone-100">SearX</strong> (search),{' '}
+        <strong className="text-stone-100">Forgejo</strong> (Github/Gitlab alt),{' '}
+        <strong className="text-stone-100">SearX</strong> (search),{' '}
         <strong className="text-stone-100"> Bookstack</strong> (for documentation of my TerraNixLab & Life). And the
         list is ever growing!
       </p>
@@ -429,10 +429,9 @@ export const experience: TimelineItem[] = [
         </p>
         <p style={{marginBottom: '10px'}}>
           Implemented <strong className="text-stone-100">Jenkins CI/CD</strong> pipelines on self-managed slaves to
-          automate the deployment processes of{' '}
-          <strong className="text-stone-100">Conda</strong> virtual environments from custom configuration files within
-          the Hadoop cluster, resulting in a <strong className="text-stone-100">30% reduction</strong> in deployment
-          time.
+          automate the deployment processes of <strong className="text-stone-100">Conda</strong> virtual environments
+          from custom configuration files within the Hadoop cluster, resulting in a{' '}
+          <strong className="text-stone-100">30% reduction</strong> in deployment time.
         </p>
         <p style={{marginBottom: '10px'}}>
           Implemented a streamlined resource pipeline for Hadoop teams, enhancing capacity planning through dynamic data
