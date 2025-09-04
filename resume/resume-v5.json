@@ -1,0 +1,575 @@
+{
+  "basics": {
+    "name": "Hritwik Singhal",
+    "headline": "Site Reliability Engineer and Linux/Open-source enthusiast.",
+    "email": "recruiters@thorin.theoakenshield.com",
+    "phone": " +91 954 8668 234",
+    "location": "Bangalore, Karnataka, India",
+    "url": {
+      "label": "",
+      "href": "https://theoakenshield.com"
+    },
+    "customFields": [],
+    "picture": {
+      "url": "https://storage.rxresu.me/clw9pgosq04hmth0hyu3szj1h/pictures/clw9pgosq04hmth0hyu3szj1h.jpg",
+      "size": 120,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": true,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "<p style=\"text-align: justify\">Site Reliability Engineer with <strong>3+ years</strong> of experience in building &amp; maintaining resilient, scalable infrastructure in production environments. I am a <strong>dedicated</strong>, self-driven <strong>geek</strong> with a passion for <strong>self-hosting</strong> and a strong zeal for <strong>open-source development</strong>. I'd rather spend 4 hours writing a program to <strong>automate</strong> a task than spend 4 minutes doing it manually every day.</p>"
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": []
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "yo3p200zo45c6cdqc6a2vtt3",
+          "visible": true,
+          "institution": "LNM Institute of Information Technology, Jaipur",
+          "studyType": "",
+          "area": "",
+          "score": "B.Tech in Computer Science",
+          "date": "August 2018 to May 2022",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "frhfx1909knra63jrcrewa9a",
+          "visible": true,
+          "company": "Health & Well-being Career break",
+          "position": "",
+          "location": "",
+          "date": "March 2025 - Present",
+          "summary": "<p>Well, emergencies don't knock on your door; they just barge in and announce, ‘Time for a reset!’ So, I've been rediscovering all the things I loved – like finally tackling that coding project I'd been putting off, tinkering with my Homelab &amp; leveling up my favorite game.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "gkhwl5hyo38klcq6g468naav",
+          "visible": true,
+          "company": "Tessell",
+          "position": "Platform Engineer",
+          "location": "Bangalore, India",
+          "date": "Sept 2024 - Feb 2025",
+          "summary": "<p style=\"text-align: justify\">Led the architectural revamp of a monolithic <strong>Python</strong> backend codebase to a modular design, enhancing <strong>scalability, maintainability, and platform flexibility</strong>; enabling faster feature releases and quicker response to market demands. This included:</p><ul><li><p style=\"text-align: justify\">Refactoring the monolithic codebase to modular architecture, reducing code complexity by <strong>20%</strong>.</p></li><li><p style=\"text-align: justify\">Designing and implementing a fully automated deployment pipeline for new database VMs across AWS &amp; Azure using Argo Workflows and custom backend, reducing VM deployment time by <strong>~80%</strong> from <strong>2 days to 4 hours</strong>.</p></li><li><p style=\"text-align: justify\"><strong>Eliminating</strong> developer dependency on our team for Database testing, fostering a self-service model and freeing up our team's capacity.</p></li><li><p style=\"text-align: justify\">Adding seamless support for new cloud platforms, including successful deployments to Oracle Cloud Infrastructure (OCI), reducing onboarding time by <strong>25%.</strong></p></li><li><p style=\"text-align: justify\">Improving support for integration of new DB's, implemented checksum validation for data integrity, improving data accuracy and reducing error rates by <strong>10%</strong>.</p></li><li><p style=\"text-align: justify\">Automated cleanup of AWS/Azure zombie resources, saving <strong>~5%</strong> infra costs.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "r6543lil53ntrxmvel53gbtm",
+          "visible": true,
+          "company": "Media.net",
+          "position": "Site Reliability Engineer",
+          "location": "Bangalore, India",
+          "date": "July 2022 to July 2024",
+          "summary": "<ul><li><p style=\"text-align: justify\">Leveraged <strong>Nix</strong> and <strong>Terraform</strong> to scale existing Hadoop cluster, on GCP and On-prem datacenters, from <strong>20 to 70</strong> nodes; thus reducing deployment time by <strong>80%</strong>.</p></li><li><p style=\"text-align: justify\">Optimized disk read/write latencies from <strong>20ms</strong> to <strong>under 1ms</strong> for <strong>HDFS</strong> by fine-tuning various <strong>ZFS</strong> parameters; thus mitigating frequent latency spikes by <strong>80%</strong>.</p></li><li><p style=\"text-align: justify\">Led company-wide deployment of Zeppelin &amp; Hue for <strong>300</strong> devs using <strong>Nix, TF</strong> &amp; <strong>SOPS</strong>. Used Infrastructure as Code (IaC) methodologies for optimized deployment speed, reliability and secret management.</p></li><li><p style=\"text-align: justify\">Scaled Hadoop cluster by <strong>30%</strong> in capacity. Implemented resource pipelines to improve capacity planning by generating &amp; aggregating team-specific data.</p></li><li><p style=\"text-align: justify\">Implemented <strong>Jenkins CI/CD</strong> pipelines to automate the deployment of <strong>Conda</strong> virtual environments on Hadoop cluster, resulting in <strong>30%</strong> reduced app deployment time.</p></li><li><p style=\"text-align: justify\">Proven on call proficiency in debugging live production issues during 24x7 <strong>on-call rotations</strong>. Ensured rapid resolution, minimizing downtime and enhancing system resilience. Proficiently conducted and authored detailed <strong>RCA</strong> reports.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "lhw25d7gf32wgdfpsktf6e0x",
+          "visible": true,
+          "company": "Media.net",
+          "position": "Site Reliability Engineer Intern",
+          "location": "Mumbai, India",
+          "date": "January 2022 to July 2022",
+          "summary": "<p style=\"text-align: justify\">Conducted in-depth analysis of Java garbage collection times by analyzing GC logs from Hadoop cluster nodes.  Fine-tuned GC parameters &amp; optimized heap sizes, thus resulting in <strong>10% improvement</strong> of application performance and reduced memory consumption.</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Extra",
+      "columns": 1,
+      "separateLinks": false,
+      "visible": false,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Hobbies",
+      "columns": 2,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": [
+        {
+          "id": "q3kiq0f8sgnf4o5blsab5tcf",
+          "visible": true,
+          "name": "Homelab",
+          "keywords": [
+            "self hosting",
+            "de-google"
+          ]
+        },
+        {
+          "id": "pvmaiz84qaigvnvvv817u904",
+          "visible": true,
+          "name": "Reading",
+          "keywords": [
+            "Astronomy",
+            "Psychology",
+            "Physics"
+          ]
+        },
+        {
+          "id": "vgfz9x9k5ynbbi1j2d9h4hrl",
+          "visible": true,
+          "name": "Badminton",
+          "keywords": []
+        },
+        {
+          "id": "g0ucvq0nxmtmn0l49oebjhko",
+          "visible": true,
+          "name": "Gaming",
+          "keywords": []
+        }
+      ]
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "i8dd0owstsvxbz1mg52iypt4",
+          "visible": true,
+          "name": "Python",
+          "description": "",
+          "level": 4
+        },
+        {
+          "id": "lvdnd4017ahc4kj3stz8iw18",
+          "visible": true,
+          "name": "Bash",
+          "description": "",
+          "level": 2
+        },
+        {
+          "id": "v1hj0vfynicrx4x0x63khl40",
+          "visible": true,
+          "name": "Java ",
+          "description": "",
+          "level": 2
+        },
+        {
+          "id": "epawis1g6fsq7ht7dqbpq573",
+          "visible": true,
+          "name": " C/C++",
+          "description": "",
+          "level": 1
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 2,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "cnbk5f0aeqvhx69ebk7hktwd",
+          "visible": true,
+          "network": "LinkedIn",
+          "username": "Hritwik",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://www.linkedin.com/in/hritwiksinghal/"
+          }
+        },
+        {
+          "id": "ukl0uecvzkgm27mlye0wazlb",
+          "visible": true,
+          "network": "Github",
+          "username": "Hritwik",
+          "icon": "github",
+          "url": {
+            "label": "",
+            "href": "https://github.com/HritwikSinghal/"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "ncxgdjjky54gh59iz2t1xi1v",
+          "visible": true,
+          "name": "TerraNixLab (My Homelab)",
+          "description": "",
+          "date": "2024 - Present",
+          "summary": "<ul><li><p style=\"text-align: justify\">Stateless, Immutable, Declarative deployment of my Proxmox-based Homelab. Used Terraform and Nix for provisioning of containers, VMs &amp; DNS in Cloudflare &amp; firewall.</p></li><li><p style=\"text-align: justify\">Reduced gaming latency by <strong>50%</strong> from <strong>120ms to 55ms</strong>, by carefully optimizing &amp; tuning the network &amp; OS; made <strong>Remote gaming</strong> viable over a distance of 2000km.</p></li><li><p style=\"text-align: justify\">Improved <strong>security</strong> and <strong>performance</strong> by isolating network &amp; automated traffic routing  of segregated networks through <strong>VLANs</strong> for different services.</p></li><li><p style=\"text-align: justify\">Created a comprehensive <strong>documentation</strong> for all homelab components and operational procedures/workings to ensure maintainability.</p></li><li><p style=\"text-align: justify\"><strong>Official maintainer</strong> of Filebrowser package in Nixpkgs.</p></li></ul>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "yw843emozcth8s1ubi1ubvlf",
+          "visible": true,
+          "name": "DiskDoctor",
+          "description": "",
+          "date": "2024",
+          "summary": "<p style=\"text-align: justify\">Developed a robust solution for reporting, monitoring and alerting of health degradation of 800 disks (SSDs, HDDs, and NVMes) in a 200-node <strong>Proxmox </strong>cluster. Integrated <strong> Proxmox</strong> &amp; <strong>Cloudera </strong>API's for seamless management of disk infrastructure.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "pkexthqvqd81acuiwoixy9a3",
+          "visible": true,
+          "name": "NebulaCrawler",
+          "description": "",
+          "date": "2023 - 2024",
+          "summary": "<p>A Kubernetes-driven local search engine where pods are used for autonomous crawling, pushing scraped webpages to Elasticsearch and URLs to Redis. Integrated Prometheus exporter SDK for monitoring and analysis of pertinent metrics.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": false,
+      "id": "references",
+      "items": [
+        {
+          "id": "f2sv5z0cce6ztjl87yuk8fak",
+          "visible": true,
+          "name": "Available upon request",
+          "description": "",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "hn0keriukh6c0ojktl9gsgjm",
+          "visible": true,
+          "name": "Linux",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "SSH",
+            "Systemd",
+            "ZFS",
+            "LVM",
+            "Virtualization"
+          ]
+        },
+        {
+          "id": "himra9ym9nhsvykh53iif7uj",
+          "visible": true,
+          "name": "Platforms",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "AWS",
+            "GPC",
+            "Azure",
+            "Proxmox",
+            "On-Prem"
+          ]
+        },
+        {
+          "id": "qpu9e1zglkwy4hdikvrupyco",
+          "visible": true,
+          "name": "Networking",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "TCP/IP",
+            "DNS",
+            "DHCP",
+            "VLAN",
+            "VPN",
+            "Firewalls",
+            "Wireshark"
+          ]
+        },
+        {
+          "id": "b6ch9wh4kqu2qzqz948puhbg",
+          "visible": true,
+          "name": "IaC",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Nix",
+            "Terraform",
+            "NixOS"
+          ]
+        },
+        {
+          "id": "wf2l9yb12tn8p43u56zlhmpw",
+          "visible": true,
+          "name": "Automation and Scripting Tools",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Ansible",
+            "Bash",
+            "Python",
+            "Git",
+            "Jenkins"
+          ]
+        },
+        {
+          "id": "df6m0cqlvhem6n36io9hofau",
+          "visible": true,
+          "name": "Orchestration",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Kubernetes",
+            "Docker",
+            "Helm",
+            "ArgoCD",
+            "Argo Workflows"
+          ]
+        },
+        {
+          "id": "eijhiccjdxmlyi4bw2xz797a",
+          "visible": true,
+          "name": "Monitoring",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Grafana",
+            "Loki",
+            "Prometheus",
+            "ElasticSearch"
+          ]
+        },
+        {
+          "id": "ubfehjlm79xmqqk8wjwp7ccp",
+          "visible": true,
+          "name": "Other",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Distributed Systems",
+            "Optimizations",
+            "Databases",
+            "Load Balancing",
+            "GitOps",
+            "Microservices",
+            "Logging",
+            "Alerting",
+            "Hadoop"
+          ]
+        },
+        {
+          "id": "x8s7xze39gd4td54wd76jquk",
+          "visible": true,
+          "name": "Soft Skills",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Communication",
+            "Problem-Solving",
+            "Collaboration",
+            "Flexibility",
+            "Critical Thinking",
+            "Eager to learn"
+          ]
+        }
+      ]
+    },
+    "custom": {
+      "atgvf207pc42m8ptroc117pd": {
+        "name": "Personal Pursuits",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "atgvf207pc42m8ptroc117pd",
+        "items": [
+          {
+            "id": "yqf6gyt39jqfkeytd65rmvqc",
+            "visible": true,
+            "name": "PADI Open Water Scuba Diver",
+            "description": "",
+            "date": "Jan 2024",
+            "location": "",
+            "summary": "<p>Qualified to a depth of 18m, can dive anywhere in the world using my own scuba gear. Turns out, the ocean is way more entertaining. Who needs Netflix when you have a pufferfish looking perpetually surprised!</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "a7ljdnl3l77pv4zbqk65ogkf",
+            "visible": true,
+            "name": "Travelling Solo",
+            "description": "",
+            "date": "2022 - 2024",
+            "location": "",
+            "summary": "<p>Just me, my backpack and some wonderful nomads i met on the way. The result? A whole lot of unexpected discoveries and a perspective shift that's, let's just say, significant!</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "hqez9ryh5l30sgzj9omc3yrd",
+            "visible": true,
+            "name": "Trek to Summit of Mt. Kedarkantha",
+            "description": "12,500 ft at -10°C",
+            "date": "Jan 2021",
+            "location": "",
+            "summary": "<p>Survived -10&nbsp;°C for 6 days! But hey, the view from the top was pretty spectacular.</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "template": "glalie",
+    "layout": [
+      [
+        [
+          "experience",
+          "references",
+          "projects",
+          "education",
+          "custom.atgvf207pc42m8ptroc117pd",
+          "volunteer"
+        ],
+        [
+          "summary",
+          "profiles",
+          "skills",
+          "certifications",
+          "interests",
+          "languages",
+          "awards",
+          "publications"
+        ]
+      ]
+    ],
+    "css": {
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 14,
+      "format": "letter",
+      "options": {
+        "breakLine": false,
+        "pageNumbers": false
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#008acf"
+    },
+    "typography": {
+      "font": {
+        "family": "Merriweather",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ],
+        "size": 12
+      },
+      "lineHeight": 1.2,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
+}

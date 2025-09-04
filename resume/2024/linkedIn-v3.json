@@ -1,0 +1,541 @@
+{
+  "basics": {
+    "name": "Hritwik Singhal",
+    "headline": "Site Reliability Engineer and Linux enthusiast.",
+    "email": "recruiters@thorin.theoakenshield.com",
+    "phone": " +91 954 8668 234",
+    "location": "Bangalore, Karnataka, India",
+    "url": {
+      "label": "",
+      "href": ""
+    },
+    "customFields": [],
+    "picture": {
+      "url": "https://storage.rxresu.me/clw9pgosq04hmth0hyu3szj1h/pictures/clw9pgosq04hmth0hyu3szj1h.jpg",
+      "size": 120,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": true,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "<p style=\"text-align: justify\"><strong>Site Reliability Engineer</strong> with a passion for Python/C++ and <strong>Linux</strong>. I am a <strong>dedicated</strong> and self-driven <strong>geek</strong> with a strong zeal for <strong>open-source development</strong> who is constantly looking to build new systems. I would rather spend 4 hours writing a script to <strong>automate</strong> a task that would take me 40 seconds to do every day.</p>"
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": []
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "yo3p200zo45c6cdqc6a2vtt3",
+          "visible": true,
+          "institution": "LNM Institute of Information Technology, Jaipur",
+          "studyType": "",
+          "area": "",
+          "score": "B.Tech in Computer Science",
+          "date": "August 2018 to May 2022",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "r6543lil53ntrxmvel53gbtm",
+          "visible": true,
+          "company": "Media.net",
+          "position": "Site Reliability Engineer",
+          "location": "Bangalore, India",
+          "date": "July 2022 to Present",
+          "summary": "<ul><li><p style=\"text-align: justify\">Proven on call proficiency in debugging live production issues during 24x7 <strong>on-call rotations</strong>.</p><ul><li><p style=\"text-align: justify\">Ensured rapid resolution, minimizing downtimes and enhancing system resilience. </p></li><li><p style=\"text-align: justify\">Proficiently conducted and authored detailed <strong>RCA </strong>reports.</p></li></ul></li><li><p style=\"text-align: justify\">Implemented <strong>CI/CD</strong> pipelines on self-managed <strong>Jenkins </strong>slaves.</p><ul><li><p style=\"text-align: justify\">Automated deployment processes of <strong>Conda </strong>virtual environments from custom configuration files within the Hadoop cluster, resulting in a <strong>30% reduction</strong> in deployment time through standardized environment setup.</p></li></ul></li><li><p style=\"text-align: justify\">Led the company-wide deployment of <strong>Zeppelin </strong>and <strong>Hue </strong>for 1000 developers.</p><ul><li><p style=\"text-align: justify\">Optimized deployment speed, reliability and secret management using<strong> Nix </strong>and <strong>SOPS </strong>through Infrastructure as Code (IaC) methodologies, reducing deployment time by <strong>50%</strong>.</p></li><li><p style=\"text-align: justify\">Implemented NGINX optimizations, resulting in a reduction of application load times from <strong>~3s to ~500ms</strong>.</p></li></ul></li><li><p style=\"text-align: justify\">Leveraged <strong>Nix </strong>and <strong>Terraform </strong>to efficiently scale an existing Hadoop cluster on GCP</p><ul><li><p style=\"text-align: justify\">Increased node count from <strong>20 to 70</strong> by revamping monolithic IaC codebase to enhance modularity, inheritance structure, and scalability of individual components, which enabled said scaling with minimal code changes, thus reducing deployment time by <strong>50%</strong>.</p></li></ul></li><li><p style=\"text-align: justify\">Implemented a streamlined resource pipeline for Hadoop teams, enhancing capacity planning through dynamic data analysis. </p><ul><li><p style=\"text-align: justify\">Integrated automated decision-making systems and analytics dashboards enabling agile response to evolving resource requirements. </p></li><li><p style=\"text-align: justify\">Optimized cluster settings based on team-specific path size limits, generating granular data for easy reporting and aggregation, thus scaling the cluster by <strong>more than 30%</strong> in capacity.</p></li></ul></li><li><p>Optimized disk read and write latencies from <strong>20ms to sub-millisecond</strong> for <strong>HDFS </strong>and <strong>YARN </strong>applications by tuning operational <strong>ZFS </strong>parameters, thus mitigating more than<strong> 80%</strong> frequent latency spikes during operational load.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "lhw25d7gf32wgdfpsktf6e0x",
+          "visible": true,
+          "company": "Media.net",
+          "position": "Site Reliability Engineer Intern",
+          "location": "Mumbai, India",
+          "date": "January 2022 to July 2022",
+          "summary": "<ul><li><p style=\"text-align: justify\">Conducted in-depth analysis of Java garbage collection times by scrutinizing server GC logs from a Hadoop cluster executing MapReduce applications. Utilized findings to fine-tune GC parameters, optimize heap size, and enhance cluster performance, ensuring efficient operation.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Extra Curricular Activites",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Hobbies",
+      "columns": 2,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": [
+        {
+          "id": "q3kiq0f8sgnf4o5blsab5tcf",
+          "visible": true,
+          "name": "Homelab",
+          "keywords": [
+            "self hosting",
+            "de-google"
+          ]
+        },
+        {
+          "id": "pvmaiz84qaigvnvvv817u904",
+          "visible": true,
+          "name": "Reading",
+          "keywords": [
+            "Astronomy",
+            "Psychology",
+            "Physics"
+          ]
+        },
+        {
+          "id": "vgfz9x9k5ynbbi1j2d9h4hrl",
+          "visible": true,
+          "name": "Badminton",
+          "keywords": []
+        },
+        {
+          "id": "g0ucvq0nxmtmn0l49oebjhko",
+          "visible": true,
+          "name": "Gaming",
+          "keywords": []
+        },
+        {
+          "id": "crrhr1cr4jqmjy6psdkcfnwx",
+          "visible": false,
+          "name": "Linux",
+          "keywords": []
+        }
+      ]
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "i8dd0owstsvxbz1mg52iypt4",
+          "visible": true,
+          "name": "Python",
+          "description": "",
+          "level": 4
+        },
+        {
+          "id": "lvdnd4017ahc4kj3stz8iw18",
+          "visible": true,
+          "name": "Bash",
+          "description": "",
+          "level": 2
+        },
+        {
+          "id": "v1hj0vfynicrx4x0x63khl40",
+          "visible": true,
+          "name": "Java ",
+          "description": "",
+          "level": 2
+        },
+        {
+          "id": "epawis1g6fsq7ht7dqbpq573",
+          "visible": true,
+          "name": " C/C++",
+          "description": "",
+          "level": 1
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 2,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "cnbk5f0aeqvhx69ebk7hktwd",
+          "visible": true,
+          "network": "LinkedIn",
+          "username": "Hritwik",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://www.linkedin.com/in/hritwiksinghal/"
+          }
+        },
+        {
+          "id": "ukl0uecvzkgm27mlye0wazlb",
+          "visible": true,
+          "network": "Github",
+          "username": "Hritwik",
+          "icon": "github",
+          "url": {
+            "label": "",
+            "href": "https://github.com/HritwikSinghal/"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "pkexthqvqd81acuiwoixy9a3",
+          "visible": true,
+          "name": "NebulaCrawler",
+          "description": "",
+          "date": "",
+          "summary": "<ul><li><p style=\"text-align: justify\">Engineered a Kubernetes-driven web scraping architecture for a bespoke search engine.  Pods are employed as autonomous crawlers, seamlessly pushing scraped webpage data to Elasticsearch and URL data to Redis. </p></li><li><p style=\"text-align: justify\">Integrated Prometheus exporter SDK to seamlessly export pertinent metrics, including scraped URLs and failures, ensuring robust monitoring and analysis capabilities.</p></li></ul>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "yw843emozcth8s1ubi1ubvlf",
+          "visible": true,
+          "name": "DiskDoctor",
+          "description": "",
+          "date": "",
+          "summary": "<ul><li><p style=\"text-align: justify\">Developed a robust solution for comprehensive disk status reporting across a 200-node <strong>Proxmox </strong>cluster, encompassing 800 disks including SSDs, HDDs, and NVMes. </p></li><li><p style=\"text-align: justify\">Leveraged <strong>multithreaded APIs</strong> to ensure high throughput in monitoring disk health and alerting on degradation. Integrated <strong>SSH </strong>access, <strong>Proxmox </strong>API, and <strong>Cloudera </strong>API for seamless monitoring and management of disk infrastructure.</p></li></ul>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "ncxgdjjky54gh59iz2t1xi1v",
+          "visible": true,
+          "name": "TerraNixLab",
+          "description": "",
+          "date": "",
+          "summary": "<p style=\"text-align: justify\">Managed <strong>Proxmox</strong>-based homelab infrastructure with <strong>Terraform</strong>, integrating <strong>Nix </strong>for Infrastructure as Code (IaC) principles Adding capabilities for provisioning of <strong>containers</strong>, <strong>VMs </strong>and <strong>CNAME </strong>entries in <strong>Cloudflare</strong>, through said IaC Codebase. </p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": false,
+      "id": "references",
+      "items": [
+        {
+          "id": "f2sv5z0cce6ztjl87yuk8fak",
+          "visible": true,
+          "name": "Available upon request",
+          "description": "",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "hn0keriukh6c0ojktl9gsgjm",
+          "visible": true,
+          "name": "Linux",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "SSH",
+            "Systemd",
+            "ZFS",
+            "RAID",
+            "LVM",
+            "ZLOG",
+            "Virtualization"
+          ]
+        },
+        {
+          "id": "qpu9e1zglkwy4hdikvrupyco",
+          "visible": true,
+          "name": "Networking",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "TCP/IP",
+            "DNS",
+            "DHCP",
+            "VLAN",
+            "VPN",
+            "Firewalls",
+            "Nginx",
+            "Wireshark"
+          ]
+        },
+        {
+          "id": "himra9ym9nhsvykh53iif7uj",
+          "visible": true,
+          "name": "Hadoop",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Hive",
+            "NameNode",
+            "DataNode",
+            "Hue",
+            "Zeppelin",
+            "Distributed Systems"
+          ]
+        },
+        {
+          "id": "b6ch9wh4kqu2qzqz948puhbg",
+          "visible": true,
+          "name": "IaC",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Nix",
+            "Terraform",
+            "CloudInit",
+            "NixOS"
+          ]
+        },
+        {
+          "id": "wf2l9yb12tn8p43u56zlhmpw",
+          "visible": true,
+          "name": "Automation and Scripting Tools",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Ansible",
+            "Bash",
+            "Python",
+            "Git",
+            "Jenkins",
+            "Proxmox"
+          ]
+        },
+        {
+          "id": "df6m0cqlvhem6n36io9hofau",
+          "visible": true,
+          "name": "Orchestration",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Kubernetes",
+            "Docker",
+            "Microservices"
+          ]
+        },
+        {
+          "id": "eijhiccjdxmlyi4bw2xz797a",
+          "visible": true,
+          "name": "Monitoring",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Grafana",
+            "Loki",
+            "Prometheus",
+            "ElasticSearch"
+          ]
+        },
+        {
+          "id": "x8s7xze39gd4td54wd76jquk",
+          "visible": true,
+          "name": "Soft Skills",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Communication",
+            "Problem-Solving",
+            "Collaboration",
+            "Flexibility",
+            "Critical Thinking",
+            "Eager to learn"
+          ]
+        }
+      ]
+    },
+    "custom": {
+      "atgvf207pc42m8ptroc117pd": {
+        "name": "Extra Curricular Activites",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "atgvf207pc42m8ptroc117pd",
+        "items": [
+          {
+            "id": "yqf6gyt39jqfkeytd65rmvqc",
+            "visible": true,
+            "name": "PADI Open Water Scuba Diver",
+            "description": "",
+            "date": "Jan 2024",
+            "location": "",
+            "summary": "<p>Qualified to a depth of 18m, can dive anywhere in the world and can assemble and use my scuba gear.</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "a7ljdnl3l77pv4zbqk65ogkf",
+            "visible": true,
+            "name": "Solo Travelling",
+            "description": "",
+            "date": "2022 - 2023",
+            "location": "",
+            "summary": "<p>Started Solo travelling, exploring places and meeting new people. This vastly broadened my perspective and completely transformed my life.</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "hqez9ryh5l30sgzj9omc3yrd",
+            "visible": true,
+            "name": "Trek to Summit of Mt. Kedarkantha",
+            "description": "12,500 ft at -10C",
+            "date": "Jan 2021",
+            "location": "",
+            "summary": "<p>Summit to peak of Mt. Kedarkantha in Uttarakhand on a 6 day trek.</p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "template": "glalie",
+    "layout": [
+      [
+        [
+          "experience",
+          "references",
+          "projects",
+          "education",
+          "custom.atgvf207pc42m8ptroc117pd",
+          "volunteer"
+        ],
+        [
+          "summary",
+          "profiles",
+          "skills",
+          "certifications",
+          "interests",
+          "languages",
+          "awards",
+          "publications"
+        ]
+      ]
+    ],
+    "css": {
+      "value": ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 22,
+      "format": "letter",
+      "options": {
+        "breakLine": false,
+        "pageNumbers": true
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#008acf"
+    },
+    "typography": {
+      "font": {
+        "family": "Merriweather",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ],
+        "size": 12.15
+      },
+      "lineHeight": 1.35,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
+}
