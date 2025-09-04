@@ -477,8 +477,8 @@ export const pursuits: PursuitItem[] = [
     title: 'PADI Open Water Scuba Diver',
     content: (
       <p>
-        Qualified to a depth of 18m, can dive anywhere in the world using my own scuba gear. Turns out, the ocean is way
-        more entertaining. Who needs Netflix when you have a pufferfish looking perpetually surprised!
+        Qualified to a depth of 18m, can dive anywhere in the world using my own scuba gear. Who needs Netflix when you
+        have a pufferfish looking perpetually surprised!
       </p>
     ),
   },
