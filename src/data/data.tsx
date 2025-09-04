@@ -373,33 +373,33 @@ export const experience: TimelineItem[] = [
           Led the architectural revamp of a monolithic <strong className="text-stone-100">Python</strong> backend
           codebase to a modular design, enhancing{' '}
           <strong className="text-stone-100">scalability, maintainability, and platform flexibility</strong>; enabling
-          faster feature releases and quicker response to market demands.
+          faster feature releases and quicker response to market demands. This included:
         </p>
 
         <p style={{marginBottom: '10px'}}>
-          Refactored the monolithic codebase to modular architecture, reducing code complexity by{' '}
+          Refactoring the monolithic codebase to modular architecture, reducing code complexity by{' '}
           <strong className="text-stone-100">20%</strong>.
         </p>
 
         <p style={{marginBottom: '10px'}}>
-          Designed and implemented a fully automated deployment pipeline for new database VMs across AWS & Azure using
+          Designing and implementing a fully automated deployment pipeline for new database VMs across AWS & Azure using
           Argo Workflows and custom backend, reducing VM deployment time by{' '}
           <strong className="text-stone-100">~80%</strong> from{' '}
           <strong className="text-stone-100">2 days to 4 hours</strong>.
         </p>
 
         <p style={{marginBottom: '10px'}}>
-          <strong className="text-stone-100">Eliminated</strong> developer dependency on our team for Database testing,
+          <strong className="text-stone-100">Eliminating</strong> developer dependency on our team for Database testing,
           fostering a self-service model and freeing up our team's capacity.
         </p>
 
         <p style={{marginBottom: '10px'}}>
-          Added seamless support for new cloud platforms, including successful deployments to Oracle Cloud
+          Adding seamless support for new cloud platforms, including successful deployments to Oracle Cloud
           Infrastructure (OCI), reducing onboarding time by <strong className="text-stone-100">25%</strong>.
         </p>
 
         <p style={{marginBottom: '10px'}}>
-          Improved support for integration of new DB's, implemented checksum validation for data integrity, improving
+          Improving support for integration of new DB's, implemented checksum validation for data integrity, improving
           data accuracy and reducing error rates by <strong className="text-stone-100">10%</strong>.
         </p>
 
