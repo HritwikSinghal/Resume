@@ -478,7 +478,7 @@ export const pursuits: PursuitItem[] = [
     content: (
       <p>
         Qualified to a depth of 18m, can dive anywhere in the world using my own scuba gear. Turns out, the ocean is way
-        more entertaining than Netflix. Who needs plot twists when you have a pufferfish looking perpetually surprised!
+        more entertaining. Who needs Netflix when you have a pufferfish looking perpetually surprised!
       </p>
     ),
   },
@@ -488,9 +488,8 @@ export const pursuits: PursuitItem[] = [
     title: 'Travelling Solo',
     content: (
       <p>
-        Just me, my backpack, and a whole lot of adventure! Apparently, all it takes is a backpack and a questionable
-        decision to start solo traveling. The result? A whole lot of unexpected discoveries and a perspective shift
-        that's, let's just say, significant!
+        Just me, my backpack and some wonderful nomads i met on the way. The result? A whole lot of unexpected
+        discoveries and a perspective shift that's, let's just say, significant!
       </p>
     ),
   },
@@ -498,12 +497,7 @@ export const pursuits: PursuitItem[] = [
     date: 'Jan 2021',
     location: 'Uttarakhand, IN',
     title: 'Trek to Summit of Mt. Kedarkantha',
-    content: (
-      <p>
-        Survived Mt. Kedarkantha! 6 days, -10°C, and a whole lot of questioning my life choices. But hey, the view from
-        12,500 ft was pretty spectacular... and I can now officially say I’ve frozen my socks off for a good reason
-      </p>
-    ),
+    content: <p>Survived -10 °C for 6 days! But hey, the view from the top was pretty spectacular!</p>,
   },
 ];
 
