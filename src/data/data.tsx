@@ -51,7 +51,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Hritwik Singhal',
-  description: 'This is me, in progress.',
+  description: 'This is me, in making.',
 };
 
 /**
