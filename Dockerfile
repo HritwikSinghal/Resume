@@ -6,9 +6,15 @@
 # Use the official Node.js image from the Docker Hub
 FROM node:24.7.0-trixie-slim AS base
 
+# Node's bundled roots trust the compromised eMudhra CAs (Oct 2026,
+# https://emudhra.we-have-a-problem.com/); install Debian's patched store and make Node use it
+# via --use-openssl-ca. Drop NODE_OPTIONS once a fixed Node.js release is the base.
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
 # Setup env variabless for yarn and nextjs
 # https://nextjs.org/telemetry
-ENV NEXT_TELEMETRY_DISABLED=1 NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1 NODE_ENV=production NODE_OPTIONS=--use-openssl-ca
 
 # Set the working directory in the container
 FROM base AS builder
