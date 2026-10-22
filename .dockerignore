@@ -1,0 +1,23 @@
+# Keep host build state out of the image: COPY . . would otherwise overwrite the
+# freshly installed node_modules and reuse a stale tsbuildinfo, which skips tsc.
+node_modules
+.next
+out
+build
+coverage
+tsconfig.tsbuildinfo
+.yarn
+.pnp
+.pnp.js
+
+# Never bake local secrets into an image layer
+.env
+.env.*
+*.pem
+
+.git
+.idea
+.vercel
+*.log
+Dockerfile
+.dockerignore
