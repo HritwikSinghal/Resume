@@ -2,6 +2,9 @@
 
 // https://github.com/vercel/next.js/blob/master/packages/next/next-server/server/config.ts
 const nextConfig = {
+  // Emits .next/standalone: a minimal server.js plus only the node_modules it traces,
+  // so the runtime image needs no yarn install or source tree.
+  output: 'standalone',
   // https://nextjs.org/docs/app/guides/upgrading/version-16
   turbopack: {
     // options
